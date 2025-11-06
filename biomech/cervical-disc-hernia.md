@@ -1,7 +1,6 @@
+## Boyun Fıtığı
 
-# Boyun Fıtığı
-
-## Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Boyun fıtığı**, boyun omurları arasındaki diskin iç kısmında bulunan jel kıvamındaki yapının dış halkadan taşarak sinir köklerine veya omuriliğe baskı yapmasıyla oluşur. Genellikle yaşa bağlı disk dejenerasyonu veya ani travmalar sonucu gelişir.  
 
@@ -9,7 +8,7 @@ Derin servikal fleksörler, orta-alt trapez ve romboidler zayıflamış; **üst 
 
 ---
 
-## Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - Chin tuck egzersiziyle derin boyun fleksörlerini güçlendirme  
 - Skapular retraksiyon ve stabilizasyon çalışmaları (orta-alt trapez ve romboidler için)  
@@ -19,7 +18,7 @@ Derin servikal fleksörler, orta-alt trapez ve romboidler zayıflamış; **üst 
 
 ---
 
-## Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Shoulder press, military press ve dumbbell shoulder press gibi baş üstü hareketler  
 - Ağır kaldırma, uzun süre araç kullanma ve tekrarlayan baş üstü aktiviteler  
@@ -29,7 +28,7 @@ Derin servikal fleksörler, orta-alt trapez ve romboidler zayıflamış; **üst 
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 Tsao, S., & Pidcoe, P. (2008). *The management of a patient with a cervical disc herniation: A case report.* Clinical Medicine: Case Reports, 1, CCRep-S727.  
 Brukner, P. (2012). *Brukner & Khan’s Clinical Sports Medicine.* North Ryde: McGraw-Hill.  
