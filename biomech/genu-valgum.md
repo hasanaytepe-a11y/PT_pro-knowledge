@@ -1,6 +1,6 @@
-# X Bacak
+## X Bacak
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Genu valgum**, femur ve tibia arasındaki medial açının **195°’den büyük** olmasıyla karakterize, dizlerin birbirine yaklaşırken ayak bileklerinin ayrıldığı bir diz hizalanma bozukluğudur.  
 **Femur iç rotasyonu**, **kalça ve diz kas dengesizlikleri**, **pes planus**, **lateral kas kısalıkları** ve **medial kas zayıflıkları** bu bozukluğa yol açar.  
@@ -8,7 +8,7 @@ Zamanla yük aktarımı lateral kompartmana kayar, patellofemoral eklemde stres 
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Germe çalışmaları:** İliotibial bant (ITB) ve *biceps femoris* için nazik esnetme hareketleri  
 - **Adduktor güçlendirme:** Dizler arasında yastıkla sıkma egzersizleri  
@@ -18,7 +18,7 @@ Zamanla yük aktarımı lateral kompartmana kayar, patellofemoral eklemde stres 
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Uzun süre tek bacak üzerine yüklenmek veya dizleri birbirine bastırarak oturmak  
 - Aşırı iç rotasyon veya yüksek darbeli aktiviteler (zıplama, sert zeminde koşu)  
@@ -28,7 +28,7 @@ Zamanla yük aktarımı lateral kompartmana kayar, patellofemoral eklemde stres 
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Johnson, J. (2011). *Postural Assessment.* Human Kinetics.  
 2. Johnson, J. (2015). *Postural Correction.* Human Kinetics.  
