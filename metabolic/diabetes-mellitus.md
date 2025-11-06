@@ -1,9 +1,8 @@
-
-# Diyabet
+## Diyabet
 
 ---
 
-## 1) Nedir?
+### Nedir?
 
 Diyabet, kandaki glukoz (şeker) düzeyinin kronik olarak yüksek seyretmesiyle karakterize bir metabolik hastalıktır. Bu durum, pankreasın yeterli insülin üretememesi veya hücrelerin insüline yanıt verememesi nedeniyle gelişir. İnsülin, kandaki glukozun enerji üretimi için hücrelere taşınmasını sağlar; sistem bozulduğunda glukoz kanda birikir ve damar, sinir ve organ hasarı gelişir.
 
@@ -15,7 +14,7 @@ Diyabet, kandaki glukoz (şeker) düzeyinin kronik olarak yüksek seyretmesiyle 
 
 ---
 
-## 2) Neden oluşur?
+### Neden oluşur?
 
 Diyabetin nedenleri genetik yatkınlık, bağışıklık sistemi bozuklukları ve yaşam tarzı faktörlerinin birleşiminden kaynaklanır.
 
@@ -27,7 +26,7 @@ Diyabetin nedenleri genetik yatkınlık, bağışıklık sistemi bozuklukları v
 
 ---
 
-## 3) Egzersizde nelere dikkat edilmeli?
+### Egzersizde nelere dikkat edilmeli?
 
 ### Genel etkiler:
 Egzersiz, insülin duyarlılığını artırır, kan şekerini düşürür, kardiyovasküler sağlığı geliştirir ve kilo kontrolünü destekler.
@@ -62,7 +61,7 @@ Egzersiz, insülin duyarlılığını artırır, kan şekerini düşürür, kard
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Pescatello, L. S. (Ed.). (2014). *ACSM’s Guidelines for Exercise Testing and Prescription.* Lippincott Williams & Wilkins.  
 2. American College of Sports Medicine. (2013). *ACSM’s Certification Review.* Lippincott Williams & Wilkins.  
