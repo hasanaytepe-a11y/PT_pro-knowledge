@@ -1,6 +1,6 @@
-# Yay Bacak
+## Yay Bacak
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Genu varum**, femur ve tibia eksenleri arasındaki açının 180 dereceden az olmasıyla karakterize, dizlerin birbirinden uzaklaştığı bir diz hizalanma bozukluğudur.  
 **Postüral tipte genu varum**, femurun iç rotasyonu, diz hiperekstansiyonu ve ayak pronasyonu sonucu gelişir;  
@@ -9,7 +9,7 @@ Uzun dönemde dizin iç tarafına aşırı yük binmesi sonucu ağrı, fonksiyon
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Kombine kuvvetlendirme ve nöromüsküler egzersizler:** Kuadriseps, kalça ve pelvis stabilizatörlerini güçlendirme (haftada 3 gün, 12 hafta)  
 - **Esneme çalışmaları:** Hamstring ve adduktor kaslarını düzenli germe  
@@ -19,7 +19,7 @@ Uzun dönemde dizin iç tarafına aşırı yük binmesi sonucu ağrı, fonksiyon
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Kemiksel deformitelerde yalnız egzersizle düzeltme beklentisi  
 - Aşırı iç rotasyon veya agresif germe hareketleri  
@@ -29,7 +29,7 @@ Uzun dönemde dizin iç tarafına aşırı yük binmesi sonucu ağrı, fonksiyon
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Johnson, J. (2015). *Postural Correction.* Human Kinetics.  
 2. Solberg, G. (2007). *Postural Disorders and Musculoskeletal Dysfunction: Diagnosis, Prevention and Treatment.* Elsevier Health Sciences.  
