@@ -1,5 +1,5 @@
 
-# Boyun Fıtığı (Cervical Disc Herniation)
+# Boyun Fıtığı
 
 ## 1) Nedir? Neden oluşur?
 
