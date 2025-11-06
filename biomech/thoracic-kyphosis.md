@@ -1,6 +1,6 @@
-# Kifoz (Thoracic Kyphosis)
+## Kifoz
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Kifoz**, omurganın öne doğru eğriliğinin artmasıyla ortaya çıkan postüral bir bozukluktur.  
 Genellikle kötü postür, disk dejenerasyonu, doğuştan deformiteler veya *Scheuermann hastalığı* gibi nedenlerle gelişir.  
@@ -10,7 +10,7 @@ Genellikle kötü postür, disk dejenerasyonu, doğuştan deformiteler veya *Sch
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - Pektoralis germe (duvar, kapı eşiği veya bolster üzerinde supin pozisyonda)  
 - Torasik self-mobilizasyon (örneğin köpük rulo üzerinde)  
@@ -20,7 +20,7 @@ Genellikle kötü postür, disk dejenerasyonu, doğuştan deformiteler veya *Sch
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Göğüs egzersizlerinin aşırı yoğunluğu, shrug, upright row, back extension ve ağırlıklı dips hareketleri  
 - Uzun süre öne eğik duruş, masa başı veya ekran karşısında statik oturma  
@@ -29,7 +29,7 @@ Genellikle kötü postür, disk dejenerasyonu, doğuştan deformiteler veya *Sch
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Clark, M., & Lucett, S. (Eds.). (2010). *NASM Essentials of Corrective Exercise Training.* Lippincott Williams & Wilkins.  
 2. Khan, K., & Brukner, P. (2011). *Clinical Sports Medicine.* McGraw-Hill Medical.  
