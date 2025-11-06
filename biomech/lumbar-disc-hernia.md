@@ -1,6 +1,6 @@
-# Bel Fıtığı
+## Bel Fıtığı
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Bel fıtığı**, omurlar arasındaki diskin dışa taşarak sinir köklerine baskı yapması sonucu bel ve bacaklarda ağrı, uyuşma veya güçsüzlükle seyreden bir durumdur.  
 Uzun süre oturmak, yanlış duruş, yetersiz fiziksel aktivite ve bel kaslarının zayıflaması disklere aşırı yük bindirir.  
@@ -8,7 +8,7 @@ En sık **L4–L5** ve **L5–S1** düzeylerinde görülür; **multifidus** ve *
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Derin core kaslarının (transversus abdominis, multifidus) kontrollü aktivasyonu**  
 - **Kalça ve gluteal kasların güçlendirilmesi** (özellikle kalça ekstansiyonu ve abdüksiyon)  
@@ -18,7 +18,7 @@ En sık **L4–L5** ve **L5–S1** düzeylerinde görülür; **multifidus** ve *
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Tekrarlayan öne eğilme, dönme veya yana bükülme hareketleri  
 - Ağrılı aralıkta yapılan germe veya yüksek yoğunluklu kuvvet egzersizleri  
@@ -28,7 +28,7 @@ En sık **L4–L5** ve **L5–S1** düzeylerinde görülür; **multifidus** ve *
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Clark, M., & Lucett, S. (2010). *NASM Essentials of Corrective Exercise Training.* Lippincott Williams & Wilkins.  
 2. Choi, H.-H., et al. (2017). *The effects of pelvic movements on back function in patients with lumbar disc herniation.* Journal of Physical Therapy Science, 29(12), 2121–2124.  
