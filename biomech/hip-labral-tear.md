@@ -1,6 +1,6 @@
-# Kalça Labrum Yırtığı
+## Kalça Labrum Yırtığı
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Kalça labrumu**, asetabulum kenarında yer alan ve eklem sıvısını tutarak kalçaya stabilite kazandıran kıkırdak bir halkadır.  
 Tekrarlayan dönme hareketleri, travmalar veya **femoroasetabüler sıkışma (FAI)** sonucu yırtılabilir.  
@@ -8,7 +8,7 @@ En sık **ön-üst labrum** etkilenir; **iç rotasyon, addüksiyon ve fleksiyon*
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Ağrı kontrolü:** Yük azaltma, kısa süreli buz uygulamaları ve göreceli istirahat  
 - **Kas dengesi:** Kalça abdüktör, ekstansör ve dış rotatör kaslarını güçlendirme  
@@ -18,7 +18,7 @@ En sık **ön-üst labrum** etkilenir; **iç rotasyon, addüksiyon ve fleksiyon*
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Uzun süre oturma, zıplama, koşu veya ani dönme hareketleri  
 - Aşırı kalça fleksiyonu, ekstansiyonu, abduksiyonu veya dış rotasyonu  
@@ -27,7 +27,7 @@ En sık **ön-üst labrum** etkilenir; **iç rotasyon, addüksiyon ve fleksiyon*
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Groh, M. M., & Herrera, J. (2009). *A comprehensive review of hip labral tears.* Curr Rev Musculoskelet Med, 2, 105–117.  
 2. Theige, M., & David, S. (2018). *Nonsurgical treatment of acetabular labral tears.* J Sport Rehabil, 27(4), 380–384.  
