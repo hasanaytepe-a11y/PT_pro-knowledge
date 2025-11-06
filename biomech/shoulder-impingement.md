@@ -1,6 +1,6 @@
-# Omuz Sıkışma Sendromu
+## Omuz Sıkışma Sendromu
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Omuz sıkışma sendromu**, rotator kılıf tendonları, subakromiyal bursa ve biseps tendonunun akromion altındaki boşlukta sıkışmasıyla oluşur.  
 Genellikle akromion kemiğinin yapısı, skapula kontrol bozukluğu, rotator manşet zayıflığı, kötü postür ve tekrarlayan baş üstü aktiviteler sonucu gelişir.  
@@ -8,7 +8,7 @@ Genellikle akromion kemiğinin yapısı, skapula kontrol bozukluğu, rotator man
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - Kürek çekme hareketi benzeri düşük açılı egzersizlerle skapula kontrolünü geliştirme  
 - Direnç bandıyla dışa rotasyon ve yüzüstü pozisyonda kolu geriye doğru kaldırma (T-Y stabilizasyon, başparmak yukarı bakacak şekilde)  
@@ -18,7 +18,7 @@ Genellikle akromion kemiğinin yapısı, skapula kontrol bozukluğu, rotator man
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Baş üstü aktiviteler, özellikle kol 70–120° arası yukarıdayken yapılan hareketler  
 - Kolu öne kaldırıp içe döndürme pozisyonu  
@@ -28,7 +28,7 @@ Genellikle akromion kemiğinin yapısı, skapula kontrol bozukluğu, rotator man
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Creech, J. A., & Silver, S. (2023). *Shoulder Impingement Syndrome.* In StatPearls [Internet]. StatPearls Publishing.  
 2. Kromer, T. O., et al. (2009). *Effects of physiotherapy in patients with shoulder impingement syndrome: a systematic review of the literature.*  
