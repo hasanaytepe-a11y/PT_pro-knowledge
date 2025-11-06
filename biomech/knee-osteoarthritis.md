@@ -1,6 +1,6 @@
-# Diz Osteoartriti
+## Diz Osteoartriti
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Diz osteoartriti**, kıkırdak yıkımı, sinovyal inflamasyon ve kemik yeniden yapılanması ile seyreden kronik, ilerleyici bir eklem hastalığıdır.  
 Yaşlanma, obezite, kas zayıflığı (özellikle **kuadriseps**), önceki yaralanmalar ve fiziksel inaktivite başlıca nedenlerdir.  
@@ -8,7 +8,7 @@ En çok **medial tibiofemoral kompartman** etkilenir; kuadriseps zayıflığı v
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Kuadriseps güçlendirme egzersizleri:** Örneğin oturarak diz uzatma, duvar squat  
 - **Alt ekstremite genel kuvvetlendirme:** Gluteal, hamstring, baldır kaslarını içeren çalışmalar  
@@ -18,7 +18,7 @@ En çok **medial tibiofemoral kompartman** etkilenir; kuadriseps zayıflığı v
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Yüksek darbe içeren aktiviteler (koşu, zıplama, sert pivot hareketleri)  
 - Uzun süreli (>90 dk) ve aşırı yoğun egzersiz seansları  
@@ -28,7 +28,7 @@ En çok **medial tibiofemoral kompartman** etkilenir; kuadriseps zayıflığı v
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Fransen, M., et al. (2015). *Exercise for Osteoarthritis of the Knee.* Cochrane Database of Systematic Reviews.  
 2. Dantas, L. O., Salvini, T. F., & McAlindon, T. E. (2021). *Knee Osteoarthritis: Key Treatments and Implications for Physical Therapy.* Brazilian Journal of Physical Therapy.  
