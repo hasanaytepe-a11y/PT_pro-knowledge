@@ -1,6 +1,6 @@
-# Düz Tabanlık
+## Düz Tabanlık
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Düz tabanlık**, ayağın medial (iç) kavisinin azalması veya kaybolmasıyla karakterize bir **postür bozukluğudur**.  
 Bu durum, ayağın iç kısmının yere tamamen temas etmesine ve yük dağılımının bozulmasına yol açar.  
@@ -9,7 +9,7 @@ uzun vadede **alt ekstremitede kas yorgunluğu ve postüral dengesizlik** ortaya
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Short-Foot egzersizi:** Ayağı önden arkaya doğru “kısaltarak” medial arkı aktif yükseltme (6–8 hafta, haftada 3 gün, 3×10–15 tekrar, 5 sn tutuş)  
 - **Gluteal güçlendirme:** Clamshell, kalça abdüksiyonu, squat ve dört nokta kalça ekstansiyonu  
@@ -19,7 +19,7 @@ uzun vadede **alt ekstremitede kas yorgunluğu ve postüral dengesizlik** ortaya
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Ayağın iç kısmına aşırı yük bindiren hareketler veya egzersizler  
 - Sert zeminde koşu, zıplama veya merdiven iniş-çıkışı gibi yüksek darbeli aktiviteler  
@@ -29,7 +29,7 @@ uzun vadede **alt ekstremitede kas yorgunluğu ve postüral dengesizlik** ortaya
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Clark, M. A., Lucett, S. C., & Sutton, B. G. (2014). *NASM Essentials of Corrective Exercise Training (1st ed., rev.).* Jones & Bartlett Learning.  
 2. Johnson, J. (2011). *Postural Assessment.* Human Kinetics.  
