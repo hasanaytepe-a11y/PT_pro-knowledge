@@ -1,9 +1,8 @@
-
-# Osteoporoz (Kemik Erimesi)
+## Osteoporoz (Kemik Erimesi)
 
 ---
 
-## 1) Nedir?
+### Nedir?
 
 **Osteoporoz**, kemik mineral yoğunluğunun azalması ve mikroyapısının bozulmasıyla kemiklerin zayıf, gözenekli ve kırılgan hâle geldiği **metabolik bir kemik hastalığıdır**.  
 Kadınlarda **menopoz sonrası östrojen azalması (Tip I)** ve **yaşa bağlı kemik yıkımı (Tip II)** başlıca nedenlerdir.  
@@ -11,7 +10,7 @@ En sık **kalça**, **omurga** ve **el bileği kırıkları** görülür.
 
 ---
 
-## 2) Neden oluşur?
+### Neden oluşur?
 
 - Yaşlanma ve hormonal değişiklikler (menopoz, düşük testosteron)  
 - Fiziksel inaktivite ve uzun süreli yatak istirahati  
@@ -22,7 +21,7 @@ En sık **kalça**, **omurga** ve **el bileği kırıkları** görülür.
 
 ---
 
-## 3) Egzersizde nelere dikkat edilmeli?
+### Egzersizde nelere dikkat edilmeli?
 
 ### Önerilen Egzersizler
 - **Vücut ağırlığını taşıyan aerobik:** Yürüyüş, merdiven çıkma, dans, hafif koşu  
@@ -40,7 +39,7 @@ En sık **kalça**, **omurga** ve **el bileği kırıkları** görülür.
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Pescatello, L. S. (2014). *ACSM’s Guidelines for Exercise Testing and Prescription.*  
 2. Katch, V. L., McArdle, W. D., & Katch, F. I. (2010). *Essentials of Exercise Physiology.*  
