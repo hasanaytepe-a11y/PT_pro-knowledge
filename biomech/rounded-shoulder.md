@@ -1,6 +1,6 @@
-# Omuzların Öne Düşük Duruşu
+## Omuzların Öne Düşük Duruşu
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Omuzların öne düşük duruşu**, omuzların öne deviye olduğu ve kürek kemiğinin öne dönük, aşağı eğimli pozisyonda bulunduğu bir postür bozukluğudur.  
 Genellikle uzun süreli kambur oturma, zayıf sırt kasları ve göğüs kaslarının kısalmasıyla ortaya çıkar.  
@@ -10,7 +10,7 @@ Genellikle uzun süreli kambur oturma, zayıf sırt kasları ve göğüs kaslar�
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Pektoralis germe:** Kapı eşiğinde kol 90° açıyla duvara dayalı, gövdeyi yavaşça dışa döndür  
 - **Köpük rulo üzerinde göğüs açma:** “T” ve “Y” pozisyonlarında kolları yere bırak  
@@ -20,7 +20,7 @@ Genellikle uzun süreli kambur oturma, zayıf sırt kasları ve göğüs kaslar�
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - **Bench press**, **dips**, **chest fly** gibi göğüs kaslarını aşırı kısaltan egzersizler  
 - Dar tutuş rowing veya front press gibi omuz iç rotasyonunu artıran hareketler  
@@ -29,7 +29,7 @@ Genellikle uzun süreli kambur oturma, zayıf sırt kasları ve göğüs kaslar�
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Clark, M., & Lucett, S. (2010). *NASM Essentials of Corrective Exercise Training.* Lippincott Williams & Wilkins.  
 2. Johnson, J. (2015). *Postural Correction.* Human Kinetics.  
