@@ -1,6 +1,6 @@
-# Golfçü Dirseği
+## Golfçü Dirseği
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Golfçü dirseği**, önkol fleksör kaslarının tekrarlayıcı ve aşırı kullanımı sonucu oluşan bir tendon yaralanmasıdır.  
 El bileği fleksiyonu ve pronasyonu içeren aktiviteler sırasında **medial epikondildeki tendon yapıları** zorlanır.  
@@ -8,7 +8,7 @@ El bileği fleksiyonu ve pronasyonu içeren aktiviteler sırasında **medial epi
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Aktivite modifikasyonu:** Ağrı oluşturan hareketlerden uzak durmak  
 - **Önkol fleksör ve pronatör germe egzersizleri:** Ağrısız tam hareket açıklığı hedeflenir  
@@ -18,7 +18,7 @@ El bileği fleksiyonu ve pronasyonu içeren aktiviteler sırasında **medial epi
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Tekrarlayan fırlatma veya hatalı teknikle yapılan atma hareketleri  
 - Aşırı el bileği fleksiyonu veya pronasyonu içeren egzersizler  
@@ -28,7 +28,7 @@ El bileği fleksiyonu ve pronasyonu içeren aktiviteler sırasında **medial epi
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Khan, K., & Brukner, P. (2011). *Clinical Sports Medicine.* McGraw-Hill Medical.  
 2. Porcari, J., Bryant, C., & Comana, F. (2015). *Exercise Physiology.* FA Davis.  
