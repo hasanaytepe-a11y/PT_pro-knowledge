@@ -1,6 +1,6 @@
-# Spondilolistezis
+## Spondilolistezis
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Spondilolistezis**, bir omurun alttaki omur üzerinde öne doğru kaymasıyla karakterize bir omurga bozukluğudur.  
 En sık **L5 omurunun S1 üzerinde kayması** şeklinde görülür ve genellikle çocukluk döneminde gelişir.  
@@ -9,7 +9,7 @@ Lomber omurga, pars interartikülaris, faset eklemler ve disk yapıları etkilen
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Core stabilizasyon çalışmaları:** Karın içe çekilerek yapılan *abdominal drawing-in* manevrası  
 - **Bird-dog (knee superman) egzersizi:** Zıt kol-bacak uzatma, nötral omurga korunarak  
@@ -19,7 +19,7 @@ Lomber omurga, pars interartikülaris, faset eklemler ve disk yapıları etkilen
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Öne eğilme ve uzun süreli oturma gibi bel fleksiyonu içeren pozisyonlar  
 - Ağır kaldırma, itme veya çekme hareketleri  
@@ -29,7 +29,7 @@ Lomber omurga, pars interartikülaris, faset eklemler ve disk yapıları etkilen
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. McGill, S. (2007). *Low Back Disorders: Evidence-Based Prevention and Rehabilitation.*  
 2. O’Sullivan, P. B., Phyty, G. D., Twomey, L. T., & Allison, G. T. (1997). *Evaluation of specific stabilizing exercise in the treatment of chronic low back pain with radiologic diagnosis of spondylolysis or spondylolisthesis.* Spine, 22(24), 2959–2967.  
