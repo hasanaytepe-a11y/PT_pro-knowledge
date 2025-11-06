@@ -1,6 +1,6 @@
 # Aşil Tendinopatisi
 
-## 1) Nedir? Neden oluşur?
+## Nedir? Neden oluşur?
 
 **Aşil tendinopatisi**, çoğunlukla **aşırı veya alışılmadık yüklenmeye bağlı** gelişen, inflamatuvar değil **dejeneratif nitelikte** bir tendon sorunudur.  
 Yüklenme artışı (hacim, hız, eğim), zemin veya ayakkabı değişimi ve yetersiz toparlanma süresi en sık tetikleyicilerdir.  
@@ -8,7 +8,7 @@ Yüklenme artışı (hacim, hız, eğim), zemin veya ayakkabı değişimi ve yet
 
 ---
 
-## 2) Egzersiz Önerileri
+## Egzersiz Önerileri
 
 - **Eksantrik yükleme (Alfredson protokolü):** Diz düz ve bükülü varyasyonlarla, günde 2 kez 12 hafta boyunca topuk düşürme egzersizleri  
 - **Modifiye eksantrik (insertional tipte):** Topuk zeminden aşağı sarkmadan, basit zemin seviyesi yüklemesi  
@@ -18,7 +18,7 @@ Yüklenme artışı (hacim, hız, eğim), zemin veya ayakkabı değişimi ve yet
 
 ---
 
-## 3) Kaçınılması Gerekenler
+## Kaçınılması Gerekenler
 
 - Uzun süreli tam dinlenme veya inaktivite (yük taşıma kapasitesini azaltır)  
 - Ani yük artışı, yön değiştirmeli veya hızlı aktiviteler  
