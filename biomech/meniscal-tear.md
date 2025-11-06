@@ -1,6 +1,6 @@
-# Menisküs Yırtığı
+## Menisküs Yırtığı
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Menisküs**, dizde femur ile tibia arasındaki yük dağılımını sağlayan ve eklem stabilitesine katkıda bulunan fibro-kıkırdak yapıdır.  
 Yırtıklar genellikle dizin bükülmesi sırasında dönme ve yüklenmenin bir arada olduğu ani hareketler sonucu gelişir.  
@@ -8,7 +8,7 @@ Yırtıklar genellikle dizin bükülmesi sırasında dönme ve yüklenmenin bir 
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Kuadriseps** (özellikle *vastus medialis oblique*) ve **hamstring güçlendirme**  
 - **Kalça abdüktör** ve **ekstansör** kaslarını çalıştırma  
@@ -18,7 +18,7 @@ Yırtıklar genellikle dizin bükülmesi sırasında dönme ve yüklenmenin bir 
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Derin çömelme, ani pivot ve dönme hareketleri  
 - Kilitlenme yapan *“bucket handle”* tipi yırtıklarda egzersize devam etmek  
@@ -28,7 +28,7 @@ Yırtıklar genellikle dizin bükülmesi sırasında dönme ve yüklenmenin bir 
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. O’Connor, F. G. (2005). *Sport Medicine: Just the Facts.* McGraw-Hill.  
 2. Clark, M., & Lucett, S. (2010). *NASM Essentials of Corrective Exercise Training.* Lippincott Williams & Wilkins.  
