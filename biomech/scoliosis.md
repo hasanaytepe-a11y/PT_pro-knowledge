@@ -1,6 +1,6 @@
-# Skolyoz
+## Skolyoz
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Skolyoz**, omurganın yan tarafa eğilmesiyle birlikte kendi ekseni etrafında dönmesi sonucu ortaya çıkan üç boyutlu bir gövde deformitesidir.  
 Çoğu idiopatik kökenlidir ve özellikle büyüme çağında yaş, cinsiyet ve eğrilik açısına göre ilerleme gösterebilir.  
@@ -8,7 +8,7 @@
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Nefes kontrolü ve gövde farkındalığına dayalı aktif Schroth egzersizleri** (eğrilik yönüne göre rotasyonel solunum)  
 - **Pelvis ve skapula hizalama çalışmaları** (ayna veya bant geri bildirimiyle)  
@@ -18,7 +18,7 @@
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Hızlı ve kontrolsüz gövde rotasyonları veya momentumlu dönüş hareketleri  
 - Aşırı ekstansiyon (geriye eğilme) içeren egzersizler  
@@ -28,7 +28,7 @@
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Weiss, H. R., Lehnert-Schroth, C., Moramarco, M., & Moramarco, K. (2022). *Schroth Therapy Advancements in Conservative Scoliosis Treatment (3rd Edition).*  
 2. Romano, M., Negrini, A., Parzini, S., & Negrini, S. (2008). *Scientific Exercises Approach to Scoliosis (SEAS): efficacy, efficiency and innovation.* In *The Conservative Scoliosis Treatment* (pp. 191–207). IOS Press.  
