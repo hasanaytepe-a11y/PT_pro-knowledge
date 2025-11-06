@@ -1,6 +1,6 @@
-# Patellofemoral Ağrı Sendromu
+## Patellofemoral Ağrı Sendromu
 
-## 1) Nedir? Neden oluşur?
+### Nedir? Neden oluşur?
 
 **Patellofemoral ağrı sendromu**, patella çevresinde veya arkasında hissedilen, özellikle ön diz ağrısı ile karakterize bir durumdur.  
 En sık **koşucular**, **genç yetişkinler** ve **aktif bireylerde** görülür.  
@@ -8,7 +8,7 @@ Patellofemoral ekleme tekrarlayıcı yük binmesi, **kuadriseps ve kalça kas za
 
 ---
 
-## 2) Egzersiz Önerileri
+### Egzersiz Önerileri
 
 - **Kuadriseps güçlendirme:** Lunge, duvar squat, leg press gibi kapalı zincir egzersizler (düşük fleksiyon açılarında)  
 - **Kalça abdüktör ve dış rotatör güçlendirme:** Step-up, yanda yürüyüş (direnç bandı ile)  
@@ -18,7 +18,7 @@ Patellofemoral ekleme tekrarlayıcı yük binmesi, **kuadriseps ve kalça kas za
 
 ---
 
-## 3) Kaçınılması Gerekenler
+### Kaçınılması Gerekenler
 
 - Derin çömelme, merdiven koşusu veya yüksek diz fleksiyonu içeren aktiviteler  
 - Ağrılı egzersiz zorlamaları veya hızlı antrenman yüklenmesi  
@@ -26,7 +26,7 @@ Patellofemoral ekleme tekrarlayıcı yük binmesi, **kuadriseps ve kalça kas za
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. van der Heijden, R. A., et al. (2015). *Exercise for treating patellofemoral pain syndrome.* Cochrane Database of Systematic Reviews.  
 2. Khan, K., & Brukner, P. (2011). *Clinical Sports Medicine.* McGraw-Hill Medical.  
