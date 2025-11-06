@@ -1,9 +1,8 @@
-
-# Hipertansiyon
+## Hipertansiyon
 
 ---
 
-## 1) Nedir?
+### Nedir?
 
 **Hipertansiyon**, arteriyel kan basıncının sürekli yüksek seyretmesiyle tanımlanan **kronik bir kalp-damar hastalığıdır**.
 
@@ -13,7 +12,7 @@
 
 ---
 
-## 2) Neden oluşur?
+### Neden oluşur?
 
 - **Genetik yatkınlık** ve **yaşlanmaya bağlı damar sertliği**  
 - **Aşırı tuz tüketimi**, **obezite**, **hareketsizlik**  
@@ -22,7 +21,7 @@
 
 ---
 
-## 3) Egzersizde dikkat edilmesi gerekenler
+### Egzersizde dikkat edilmesi gerekenler
 
 **Amaç:** Kan basıncını 5–7 mmHg azaltmak, kalp-damar dayanıklılığını artırmak.  
 
@@ -43,7 +42,7 @@
 
 ---
 
-## Kaynaklar
+**Kaynaklar**
 
 1. Pescatello, L. S. (2014). *ACSM’s Guidelines for Exercise Testing and Prescription.*  
 2. Kenney, W. L., Wilmore, J. H., & Costill, D. L. (2022). *Physiology of Sport and Exercise.* Human Kinetics.  
