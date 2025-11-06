@@ -1,21 +1,32 @@
-# Forward Head Posture (FHP)
+## Baş Öne Pozisyonu
 
-**Kaçınılması gerekenler**
-- Shrugs benzeri üst trapezleri yoğun çalıştıran hareketler yapılmamalı
-- Uzun süre baş önde, omuzlar önde düşmüş ve ekrana aşağı bakan duruşlar sınırlandırılmalı
-- Ağır sırt çantası taşınmamalı
+---
 
-**Güçlendirilmesi gereken kaslar**
-- Derin servikal fleksörler, Romboidler, Orta trapez, Alt trapez, Serratus anterior
+### Nedir? Neden oluşur?
 
-**Esnetilmesi gereken kaslar**
-- Üst trapez, Sternokleidomastoid (SCM), Levator scapulae, Servikal ekstansörler (suboksipital, splenius, spinalis), Pektoralis major/minor
+**Forward Head Posture**, başın dikey eksene göre öne yerleşmesiyle ortaya çıkan bir **postür bozukluğudur**.  
+Genellikle **uzun süre bilgisayar veya telefon kullanımı**, **kötü oturma alışkanlıkları** ve **zayıf boyun–sırt kasları** sonucu gelişir.  
+Bu durum **servikal lordoz artışı**, **torasik kifoz** ve **omuzların öne yuvarlanması** ile birlikte görülür.
 
-**Egzersiz önerisi**
-- “Chin tuck” egzersizi ve supin pozisyonda baş kaldırma (izometrik fleksiyon)
-- Torakal ve lomber postürü düzeltmek
-- Stabilite topu (Swiss ball) üzerinde yapılan hareketler, boyun–omuz–core entegrasyonunu artırır
-- Suboksipital kasları gevşetmek (örneğin baş altına rulo havlu koyarak)
+---
+
+### Egzersiz Önerileri
+
+- **Chin tuck egzersizi:** Derin servikal fleksörleri güçlendirir.  
+- **Skapular retraksiyon:** Orta–alt trapez ve romboid kaslarını aktive eder.  
+- **Torakal ekstansiyon çalışmaları:** Köpük rulo veya bolster üzerinde uygulanabilir.  
+- **Pektoralis germe:** Kapı eşiğinde veya duvara dayanarak göğüs kaslarını esnet.  
+- **Postür farkındalığı:** Baş–omuz–pelvis hizasını koruyarak dik oturma alışkanlığı geliştir.
+
+---
+
+### Kaçınılması Gerekenler
+
+- Uzun süre baş öne eğik pozisyonda ekran kullanmak.  
+- Omuzları öne düşürerek kambur oturmak.  
+- Ağır sırt çantası taşımak.  
+- Sert, ani boyun ekstansiyon/rotasyon hareketleri yapmak.  
+- Yastıksız veya çok yüksek yastıkla uyumak.
 
 **Kaynak**
 - Harman, K., Hubley-Kozey, C. L., & Butler, H. (2005). Effectiveness of an exercise program to improve forward head posture in normal adults: a randomized, controlled 10-week trial. Journal of Manual & Manipulative Therapy, 13(3), 163-176.
