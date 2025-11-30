@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="tr">
-
 <head>
   <meta charset="utf-8" />
   <title>Bel Fıtığı – PT Pro Bilgilendirme</title>
@@ -12,6 +11,7 @@
       --card-bg: #ffffff;
       --text-color: #111111;
       --muted-text: #555555;
+      --accent: #2563eb;
       --divider: #e0e0e5;
     }
 
@@ -22,122 +22,197 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif;
-      background: var(--bg-color);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Roboto", "Segoe UI", system-ui, sans-serif;
+      background-color: var(--bg-color);
       color: var(--text-color);
       line-height: 1.6;
     }
 
-    .container {
-      max-width: 760px;
+    .page {
+      max-width: 840px;
       margin: 0 auto;
-      padding: 24px;
-      background: var(--card-bg);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      padding: 16px;
     }
 
-    h1,
-    h2 {
-      color: var(--text-color);
-      font-weight: 700;
-      margin-top: 32px;
-      margin-bottom: 16px;
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 20px 18px 24px;
+      box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.04),
+        0 1px 3px rgba(0, 0, 0, 0.06);
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 26px;
+      margin: 0 0 4px;
+      letter-spacing: 0.01em;
     }
 
-    h2 {
-      font-size: 22px;
-    }
-
-    p,
-    li {
-      font-size: 16px;
-      color: var(--text-color);
-    }
-
-    ul {
-      padding-left: 20px;
+    p {
+      margin: 0 0 10px;
     }
 
     hr {
       border: none;
       border-top: 1px solid var(--divider);
-      margin: 28px 0;
+      margin: 20px 0;
+    }
+
+    ul {
+      margin: 0 0 12px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background-color: rgba(37, 99, 235, 0.06);
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .section-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted-text);
+      margin-bottom: 4px;
+    }
+
+    .sources-title {
+      font-weight: 600;
+      margin-top: 18px;
+      margin-bottom: 6px;
     }
 
     .source-list {
-      margin-top: 16px;
-      padding-left: 20px;
+      font-size: 14px;
+      color: var(--muted-text);
+      padding-left: 18px;
     }
 
-    .source-list li {
-      color: var(--muted-text);
-      font-size: 15px;
-      margin-bottom: 8px;
+    @media (min-width: 768px) {
+      .card {
+        padding: 24px 24px 28px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
     }
   </style>
 </head>
-
 <body>
-  <div class="container">
+  <div class="page">
+    <div class="card">
+      <div class="badge">PT Pro – Klinik Bilgilendirme Notu</div>
+      <h1>Bel Fıtığı</h1>
 
-    <h1>Bel Fıtığı</h1>
+      <!-- TANIM / MEKANİZMA -->
+      <div class="section-label">Tanım ve oluşum mekanizması</div>
+      <p>
+        <strong>Bel fıtığı</strong>, omurlar arasındaki diskin dışa taşarak
+        sinir köklerine baskı yapması sonucu bel ve bacaklarda ağrı, uyuşma
+        veya güçsüzlükle seyreden bir durumdur.
+      </p>
+      <p>
+        Uzun süre oturmak, yanlış duruş, yetersiz fiziksel aktivite ve bel
+        kaslarının zayıflaması disklere aşırı yük bindirir. En sık
+        <strong>L4–L5</strong> ve <strong>L5–S1</strong> düzeylerinde görülür;
+        <strong>multifidus</strong> ve
+        <strong>transversus abdominis</strong> kasları zayıflar, omurga
+        stabilitesi azalır.
+      </p>
 
-    <hr />
+      <hr />
 
-    <h2>Nedir? Neden oluşur?</h2>
+      <!-- EGZERSİZ YAKLAŞIMI -->
+      <div class="section-label">Egzersiz yaklaşımı</div>
+      <ul>
+        <li>
+          <strong>Derin core kaslarının kontrollü aktivasyonu:</strong>
+          <em>transversus abdominis</em> ve <em>multifidus</em> odaklı çalışmalar
+        </li>
+        <li>
+          <strong>Kalça ve gluteal kasların güçlendirilmesi:</strong>
+          özellikle kalça ekstansiyonu ve abdüksiyon egzersizleri
+        </li>
+        <li>
+          <strong>Pelvik hizalanmayı geliştiren stabilizasyon egzersizleri</strong>
+        </li>
+        <li>
+          <strong>Nötral omurga pozisyonunda denge ve kontrol çalışmaları</strong>
+        </li>
+        <li>
+          <strong>Ağrısız aralıkta McKenzie tarzı ekstansiyon egzersizleri</strong>
+        </li>
+      </ul>
 
-    <p>
-      <strong>Bel fıtığı</strong>, omurlar arasındaki diskin dışa taşarak sinir köklerine baskı yapması sonucu
-      bel ve bacaklarda ağrı, uyuşma veya güçsüzlükle seyreden bir durumdur.
-    </p>
+      <hr />
 
-    <p>
-      Uzun süre oturmak, yanlış duruş, yetersiz fiziksel aktivite ve bel kaslarının zayıflaması
-      disklere aşırı yük bindirir. En sık <strong>L4–L5</strong> ve <strong>L5–S1</strong> düzeylerinde görülür;
-      <strong>multifidus</strong> ve <strong>transversus abdominis</strong> kasları zayıflar, omurga stabilitesi azalır.
-    </p>
+      <!-- DİKKAT EDİLMESİ GEREKENLER -->
+      <div class="section-label">Dikkat edilmesi gerekenler</div>
+      <ul>
+        <li>Tekrarlayan öne eğilme, dönme veya yana bükülme hareketleri</li>
+        <li>
+          Ağrılı aralıkta yapılan germe veya yüksek yoğunluklu kuvvet egzersizleri
+        </li>
+        <li>Uzun süre kambur pozisyonda oturma</li>
+        <li>Ani hareketler veya ağır kaldırma</li>
+        <li>
+          Sadece pasif yöntemlere (dinlenme, traksiyon) dayalı tedavi yaklaşımları
+        </li>
+      </ul>
 
-    <hr />
+      <hr />
 
-    <h2>Egzersiz Önerileri</h2>
-
-    <ul>
-      <li><strong>Derin core kaslarının kontrollü aktivasyonu:</strong> transversus abdominis ve multifidus odaklı çalışmalar</li>
-      <li><strong>Kalça ve gluteal kasların güçlendirilmesi:</strong> özellikle kalça ekstansiyonu ve abdüksiyon egzersizleri</li>
-      <li><strong>Pelvik hizalanmayı geliştiren stabilizasyon egzersizleri</strong></li>
-      <li><strong>Nötral omurga pozisyonunda denge ve kontrol çalışmaları</strong></li>
-      <li><strong>Ağrısız aralıkta McKenzie tarzı ekstansiyon egzersizleri</strong></li>
-    </ul>
-
-    <hr />
-
-    <h2>Kaçınılması Gerekenler</h2>
-
-    <ul>
-      <li>Tekrarlayan öne eğilme, dönme veya yana bükülme hareketleri</li>
-      <li>Ağrılı aralıkta yapılan germe veya yüksek yoğunluklu kuvvet egzersizleri</li>
-      <li>Uzun süre kambur pozisyonda oturma</li>
-      <li>Ani hareketler veya ağır kaldırma</li>
-      <li>Sadece pasif yöntemlere (dinlenme, traksiyon) dayalı tedavi yaklaşımları</li>
-    </ul>
-
-    <hr />
-
-    <h2>Kaynaklar</h2>
-
-    <ul class="source-list">
-      <li>Clark, M., & Lucett, S. (2010). <em>NASM Essentials of Corrective Exercise Training.</em></li>
-      <li>Choi, H.-H., et al. (2017). <em>Pelvic movements and back function in lumbar disc herniation.</em> J Phys Ther Sci, 29(12), 2121–2124.</li>
-      <li>VanGelder, L. H., Hoogenboom, B. J., & Vaughn, D. W. (2013). <em>Phased rehab protocol for athletes with LDH.</em> IJSPT, 8(4), 482.</li>
-      <li>Khanzadeh, R., et al. (2020). <em>Core stability exercises and disc characteristics in office staff.</em> Arch Bone Jt Surg, 8(3), 445.</li>
-      <li>Wang, Z., et al. (2024). <em>Clinical effects and mechanisms of exercise on LDH.</em> Frontiers in Physiology, 15, 1309663.</li>
-    </ul>
-
+      <!-- KAYNAKLAR -->
+      <div class="sources-title">Kaynaklar</div>
+      <ol class="source-list">
+        <li>
+          Clark, M., &amp; Lucett, S. (2010).
+          <em>NASM Essentials of Corrective Exercise Training.</em>
+        </li>
+        <li>
+          Choi, H.-H., et al. (2017).
+          <em>The effects of pelvic movements on back function in patients with lumbar disc herniation.</em>
+          Journal of Physical Therapy Science, 29(12), 2121–2124.
+        </li>
+        <li>
+          VanGelder, L. H., Hoogenboom, B. J., &amp; Vaughn, D. W. (2013).
+          <em>A phased rehabilitation protocol for athletes with lumbar intervertebral disc herniation.</em>
+          International Journal of Sports Physical Therapy, 8(4), 482.
+        </li>
+        <li>
+          Khanzadeh, R., Mahdavinejad, R., &amp; Borhani, A. (2020).
+          <em>The effect of suspension and conventional core stability exercises on characteristics of intervertebral disc and chronic pain in office staff due to lumbar herniated disc.</em>
+          Archives of Bone and Joint Surgery, 8(3), 445.
+        </li>
+        <li>
+          Wang, Z., Liu, X., Gao, K., Tuo, H., Zhang, X., &amp; Liu, W. (2024).
+          <em>Clinical effects and biological mechanisms of exercise on lumbar disc herniation.</em>
+          Frontiers in Physiology, 15, 1309663.
+        </li>
+      </ol>
+    </div>
   </div>
 </body>
-
 </html>
