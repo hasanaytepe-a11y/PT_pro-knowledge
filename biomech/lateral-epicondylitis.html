@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="tr">
-
 <head>
   <meta charset="utf-8" />
   <title>Tenisçi Dirseği – PT Pro Bilgilendirme</title>
@@ -12,154 +11,181 @@
       --card-bg: #ffffff;
       --text-color: #111111;
       --muted-text: #555555;
+      --accent: #2563eb;
       --divider: #e0e0e5;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif;
-      background: var(--bg-color);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Roboto", "Segoe UI", system-ui, sans-serif;
+      background-color: var(--bg-color);
       color: var(--text-color);
       line-height: 1.6;
     }
 
-    .container {
-      max-width: 760px;
+    .page {
+      max-width: 840px;
       margin: 0 auto;
-      padding: 24px;
-      background: var(--card-bg);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      padding: 16px;
     }
 
-    h1,
-    h2 {
-      color: var(--text-color);
-      font-weight: 700;
-      margin-top: 32px;
-      margin-bottom: 16px;
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 20px 18px 24px;
+      box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.04),
+        0 1px 3px rgba(0, 0, 0, 0.06);
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 26px;
+      margin: 0 0 4px;
+      letter-spacing: 0.01em;
     }
 
-    h2 {
-      font-size: 22px;
-    }
-
-    p,
-    li {
-      font-size: 16px;
-      color: var(--text-color);
-    }
-
-    ul {
-      padding-left: 20px;
-    }
+    p { margin: 0 0 10px; }
 
     hr {
       border: none;
       border-top: 1px solid var(--divider);
-      margin: 28px 0;
+      margin: 20px 0;
+    }
+
+    ul {
+      margin: 0 0 12px 20px;
+      padding: 0;
+    }
+
+    li { margin-bottom: 6px; }
+
+    strong { font-weight: 600; }
+
+    em { font-style: italic; }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background-color: rgba(37, 99, 235, 0.06);
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .section-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted-text);
+      margin-bottom: 4px;
+    }
+
+    .sources-title {
+      font-weight: 600;
+      margin-top: 18px;
+      margin-bottom: 6px;
     }
 
     .source-list {
-      margin-top: 16px;
-      padding-left: 20px;
+      font-size: 14px;
+      color: var(--muted-text);
+      padding-left: 18px;
     }
 
-    .source-list li {
-      color: var(--muted-text);
-      font-size: 15px;
-      margin-bottom: 8px;
+    @media (min-width: 768px) {
+      .card { padding: 24px 24px 28px; }
+      h1 { font-size: 28px; }
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="page">
+    <div class="card">
 
-    <h1>Tenisçi Dirseği</h1>
+      <div class="badge">PT Pro – Klinik Bilgilendirme Notu</div>
+      <h1>Tenisçi Dirseği</h1>
 
-    <hr />
+      <div class="section-label">Tanım ve oluşum mekanizması</div>
 
-    <h2>Nedir? Neden oluşur?</h2>
+      <p>
+        <strong>Tenisçi dirseği</strong>, dirseğin dış kısmındaki lateral epikondil çevresinde ağrı ile
+        karakterize bir tendon aşırı kullanım yaralanmasıdır.
+      </p>
 
-    <p>
-      <strong>Tenisçi dirseği</strong>, dirseğin dış kısmındaki lateral epikondil çevresinde ağrı ile karakterize
-      bir tendon aşırı kullanım yaralanmasıdır.
-    </p>
+      <p>
+        Genellikle tekrarlayıcı önkol pronasyon–supinasyon hareketleri ve el bileği ekstansiyonu
+        gerektiren aktiviteler sonucu gelişir. En sık <strong>extensor carpi radialis brevis</strong>
+        etkilenir; uzun süreli olgularda tendon kalınlaşması, mikroyırtıklar ve fibrozis görülebilir.
+      </p>
 
-    <p>
-      Genellikle tekrarlayıcı önkol pronasyon–supinasyon hareketleri ve el bileği ekstansiyonu gerektiren aktiviteler
-      sonucu gelişir. En sık <strong>extensor carpi radialis brevis</strong> etkilenir; uzun süreli olgularda tendon
-      kalınlaşması, mikroyırtıklar ve fibrozis görülebilir.
-    </p>
+      <hr />
 
-    <hr />
+      <div class="section-label">Egzersiz yaklaşımı</div>
 
-    <h2>Egzersiz Önerileri</h2>
+      <ul>
+        <li>
+          <strong>Eksantrik el bileği ekstansiyonu egzersizi:</strong>
+          6–12 hafta boyunca, günde 3 set × 10–15 tekrar
+        </li>
+        <li>
+          <strong>İzometrik ve izotonik el bileği ekstansör çalışmaları:</strong>
+          Ağrısız aralıkta uygulanır
+        </li>
+        <li>
+          <strong>Önkol germe egzersizleri:</strong>
+          Ağrısız hareket açıklığını korumak için düzenli yapılır
+        </li>
+        <li>
+          <strong>Bileklik, buz veya sıcak uygulamasıyla desteklenmiş egzersiz programı</strong>
+        </li>
+        <li>
+          <strong>Omuz ve skapular stabilizasyon egzersizleri:</strong>
+          Kavrama yükünü azaltmak için uygulanır
+        </li>
+      </ul>
 
-    <ul>
-      <li>
-        <strong>Eksantrik el bileği ekstansiyonu egzersizi:</strong>
-        6–12 hafta boyunca, günde 3 set × 10–15 tekrar
-      </li>
-      <li>
-        <strong>İzometrik ve izotonik el bileği ekstansör çalışmaları:</strong>
-        ağrısız aralıkta uygulanır
-      </li>
-      <li>
-        <strong>Önkol germe egzersizleri:</strong>
-        ağrısız hareket açıklığını korumak amacıyla düzenli yapılır
-      </li>
-      <li>
-        <strong>Bileklik, buz veya sıcak uygulamasıyla desteklenmiş egzersiz programı</strong>
-      </li>
-      <li>
-        <strong>Omuz ve skapular stabilizasyon egzersizleri:</strong>
-        kavrama yükünü azaltmak için uygulanır
-      </li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="section-label">Dikkat edilmesi gerekenler</div>
 
-    <h2>Kaçınılması Gerekenler</h2>
+      <ul>
+        <li>Tekrarlayıcı önkol döndürme hareketleri ve tam dirsek ekstansiyonu içeren yüklenmeler</li>
+        <li>Dirençli el bileği ekstansiyonu veya kavrama hareketleri sırasında yüklenmeye devam etmek</li>
+        <li>Kuvvetli kavrama ve döndürme gerektiren işler (örneğin montaj, inşaat, tarım)</li>
+        <li>Ağrılı dönemde yüksek dirençli egzersiz veya antrenman yapmak</li>
+      </ul>
 
-    <ul>
-      <li>Tekrarlayıcı önkol döndürme hareketleri ve tam dirsek ekstansiyonu içeren yüklenmeler</li>
-      <li>Dirençli el bileği ekstansiyonu veya kavrama hareketleri sırasında yüklenmeye devam etmek</li>
-      <li>Kuvvetli kavrama ve döndürme gerektiren işler (örneğin montaj, inşaat, tarım)</li>
-      <li>Ağrılı dönemde yüksek dirençli egzersiz veya antrenman yapmak</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="sources-title">Kaynaklar</div>
 
-    <h2>Kaynaklar</h2>
+      <ol class="source-list">
+        <li>
+          Trudel, D. et al. (2004).
+          <em>Rehabilitation for patients with lateral epicondylitis: a systematic review.</em>
+          Journal of Hand Therapy, 17(2), 243–266.
+        </li>
+        <li>
+          Park, H. B. et al. (2021).
+          <em>Factors associated with lateral epicondylitis of the elbow.</em>
+          Orthopaedic Journal of Sports Medicine, 9(5), 23259671211007734.
+        </li>
+        <li>
+          Raman, J., MacDermid, J. C., &amp; Grewal, R. (2012).
+          <em>Effectiveness of different methods of resistance exercises in lateral epicondylosis – a systematic review.</em>
+          Journal of Hand Therapy, 25(1), 5–26.
+        </li>
+      </ol>
 
-    <ul class="source-list">
-      <li>
-        Trudel, D. et al. (2004).
-        <em>Rehabilitation for patients with lateral epicondylitis: a systematic review.</em>
-        Journal of Hand Therapy, 17(2), 243–266.
-      </li>
-      <li>
-        Park, H. B. et al. (2021).
-        <em>Factors associated with lateral epicondylitis of the elbow.</em>
-        Orthopaedic Journal of Sports Medicine, 9(5), 23259671211007734.
-      </li>
-      <li>
-        Raman, J., MacDermid, J. C., & Grewal, R. (2012).
-        <em>Effectiveness of different methods of resistance exercises in lateral epicondylosis – a systematic review.</em>
-        Journal of Hand Therapy, 25(1), 5–26.
-      </li>
-    </ul>
-
+    </div>
   </div>
 </body>
 
