@@ -12,121 +12,180 @@
       --card-bg: #ffffff;
       --text-color: #111111;
       --muted-text: #555555;
+      --accent: #2563eb;
       --divider: #e0e0e5;
+    }
+
+    * {
+      box-sizing: border-box;
     }
 
     body {
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif;
-      background: var(--bg-color);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Roboto", system-ui, sans-serif;
+      background-color: var(--bg-color);
       color: var(--text-color);
       line-height: 1.6;
     }
 
-    .container {
-      max-width: 760px;
+    .page {
+      max-width: 840px;
       margin: 0 auto;
-      padding: 24px;
-      background: var(--card-bg);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      padding: 16px;
     }
 
-    h1,
-    h2 {
-      color: var(--text-color);
-      font-weight: 700;
-      margin-top: 32px;
-      margin-bottom: 16px;
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 22px 20px 26px;
+      box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.04),
+        0 1px 3px rgba(0, 0, 0, 0.06);
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 26px;
+      margin: 0 0 6px;
+      letter-spacing: 0.01em;
+      font-weight: 700;
     }
 
-    h2 {
-      font-size: 22px;
-    }
-
-    p,
-    li {
-      font-size: 16px;
-      color: var(--text-color);
+    p {
+      margin: 0 0 10px;
     }
 
     ul {
-      padding-left: 20px;
+      margin: 0 0 12px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    em {
+      font-style: italic;
     }
 
     hr {
       border: none;
       border-top: 1px solid var(--divider);
-      margin: 28px 0;
+      margin: 20px 0;
     }
 
-    .source-list li {
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background-color: rgba(37, 99, 235, 0.06);
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .section-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
       color: var(--muted-text);
-      font-size: 15px;
-      margin-bottom: 8px;
+      margin-bottom: 4px;
+    }
+
+    .sources-title {
+      font-weight: 600;
+      margin-top: 18px;
+      margin-bottom: 6px;
+    }
+
+    .source-list {
+      font-size: 14px;
+      color: var(--muted-text);
+      padding-left: 18px;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="page">
+    <div class="card">
 
-    <h1>Omuzların Öne Düşük Duruşu</h1>
+      <div class="badge">PT Pro – Klinik Bilgilendirme Notu</div>
+      <h1>Omuzların Öne Düşük Duruşu</h1>
 
-    <hr />
+      <div class="section-label">Tanım ve oluşum mekanizması</div>
 
-    <h2>Nedir? Neden oluşur?</h2>
+      <p>
+        <strong>Omuzların öne düşük duruşu</strong>, omuzların öne deviye olduğu ve kürek kemiğinin öne dönük,
+        aşağıya eğimli pozisyonda bulunduğu bir <strong>postür bozukluğudur</strong>.
+        Genellikle uzun süre kambur oturma, zayıf sırt kasları ve göğüs kaslarının kısalmasıyla ortaya çıkar.
+      </p>
 
-    <p>
-      <strong>Omuzların öne düşük duruşu</strong>, omuzların öne deviye olduğu ve kürek kemiğinin öne dönük,
-      aşağıya eğimli pozisyonda bulunduğu bir <strong>postür bozukluğudur</strong>.
-      Genellikle uzun süre kambur oturma, zayıf sırt kasları ve göğüs kaslarının kısalmasıyla ortaya çıkar.
-    </p>
+      <p>
+        <strong>Kısa/gergin kaslar:</strong> Pektoralis majör–minör, latissimus dorsi, üst trapez, levator skapula<br />
+        <strong>Zayıf/uzamış kaslar:</strong> Alt–orta trapez, romboidler, serratus anterior, derin boyun fleksörleri
+      </p>
 
-    <p>
-      <strong>Kısa/gergin kaslar:</strong> Pektoralis majör–minör, latissimus dorsi, üst trapez, levator skapula<br />
-      <strong>Zayıf/uzamış kaslar:</strong> Alt–orta trapez, romboidler, serratus anterior, derin boyun fleksörleri
-    </p>
+      <hr />
 
-    <hr />
+      <div class="section-label">Egzersiz yaklaşımı</div>
 
-    <h2>Egzersiz Önerileri</h2>
+      <ul>
+        <li>
+          <strong>Pektoralis germe:</strong>
+          Kapı eşiğinde kol 90° açıyla duvara yerleştirip gövdeyi dışa döndür
+        </li>
+        <li>
+          <strong>Köpük rulo ile göğüs açma:</strong>
+          “T” ve “Y” pozisyonlarında kolları rahatça yere bırak
+        </li>
+        <li>
+          <strong>Y-to-W veya L-to-Y hareketleri:</strong>
+          Alt ve orta trapez aktivasyonu için
+        </li>
+        <li>
+          <strong>Kürek kemiği retraksiyon–depresyon:</strong>
+          Direnç bandı veya TRX kullanarak
+        </li>
+        <li>
+          <strong>Serratus anterior / derin boyun fleksör aktivasyonu:</strong>
+          “Wall slide” ve “chin tuck” çalışmaları
+        </li>
+      </ul>
 
-    <ul>
-      <li><strong>Pektoralis germe:</strong> Kapı eşiğinde kol 90° açıyla duvara yerleştirip gövdeyi dışa döndür</li>
-      <li><strong>Köpük rulo ile göğüs açma:</strong> “T” ve “Y” pozisyonlarında kolları rahatça yere bırak</li>
-      <li><strong>Y-to-W veya L-to-Y hareketleri:</strong> Alt ve orta trapez aktivasyonu için</li>
-      <li><strong>Kürek kemiği retraksiyon–depresyon:</strong> Direnç bandı veya TRX kullanarak</li>
-      <li><strong>Serratus anterior / derin boyun fleksör aktivasyonu:</strong> “Wall slide” ve “chin tuck” çalışmaları</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="section-label">Dikkat edilmesi gerekenler</div>
 
-    <h2>Kaçınılması Gerekenler</h2>
+      <ul>
+        <li>
+          <strong>Bench press, dips, chest fly</strong> gibi göğüs kaslarını kısaltan egzersizler
+        </li>
+        <li>Dar tutuş rowing veya iç rotasyonu artıran basış hareketleri</li>
+        <li>Uzun süre kambur oturmak veya öne eğilerek telefon kullanmak</li>
+        <li>Hızlı, kontrolsüz omuz rotasyonları veya aşırı germe</li>
+      </ul>
 
-    <ul>
-      <li><strong>Bench press, dips, chest fly</strong> gibi göğüs kaslarını kısaltan egzersizler</li>
-      <li>Dar tutuş rowing veya iç rotasyonu artıran basış hareketleri</li>
-      <li>Uzun süre kambur oturmak veya öne eğilerek telefon kullanmak</li>
-      <li>Hızlı, kontrolsüz omuz rotasyonları veya aşırı germe</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="sources-title">Kaynaklar</div>
 
-    <h2>Kaynaklar</h2>
+      <ol class="source-list">
+        <li>Clark, M., &amp; Lucett, S. (2010). <em>NASM Essentials of Corrective Exercise Training.</em></li>
+        <li>Johnson, J. (2015). <em>Postural Correction.</em> Human Kinetics.</li>
+        <li>Wong, C. K., et al. (2010). Rounded-shoulder posture &amp; muscle strength. <em>J Bodywork Mov Ther.</em></li>
+        <li>Lynch, S. S., et al. (2010). Posture correction in swimmers. <em>Br J Sports Med.</em></li>
+        <li>Do, Y. L., et al. (2017). Exercise methods on rounded shoulder posture. <em>J Phys Ther Sci.</em></li>
+      </ol>
 
-    <ul class="source-list">
-      <li>Clark, M., & Lucett, S. (2010). <em>NASM Essentials of Corrective Exercise Training.</em></li>
-      <li>Johnson, J. (2015). <em>Postural Correction.</em> Human Kinetics.</li>
-      <li>Wong, C. K., et al. (2010). Rounded-shoulder posture & muscle strength. <em>J Bodywork Mov Ther.</em></li>
-      <li>Lynch, S. S., et al. (2010). Posture correction in swimmers. <em>Br J Sports Med.</em></li>
-      <li>Do, Y. L., et al. (2017). Effects of exercise methods on rounded shoulder posture. <em>J Phys Ther Sci.</em></li>
-    </ul>
-
+    </div>
   </div>
 </body>
 
