@@ -12,6 +12,7 @@
       --card-bg: #ffffff;
       --text-color: #111111;
       --muted-text: #555555;
+      --accent: #2563eb;
       --divider: #e0e0e5;
     }
 
@@ -28,122 +29,172 @@
       line-height: 1.6;
     }
 
-    .container {
-      max-width: 760px;
+    .page {
+      max-width: 840px;
       margin: 0 auto;
-      padding: 24px;
-      background: var(--card-bg);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      padding: 16px;
     }
 
-    h1,
-    h2 {
-      font-weight: 700;
-      color: var(--text-color);
-      margin-top: 32px;
-      margin-bottom: 16px;
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 22px 20px 26px;
+      box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.04),
+        0 1px 3px rgba(0, 0, 0, 0.06);
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 26px;
+      margin: 0 0 6px;
+      letter-spacing: 0.01em;
+      font-weight: 700;
     }
 
-    h2 {
-      font-size: 22px;
-    }
-
-    p,
-    li {
-      font-size: 16px;
+    p {
+      margin: 0 0 10px;
     }
 
     ul {
-      padding-left: 20px;
+      margin: 0 0 12px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
     }
 
     hr {
       border: none;
       border-top: 1px solid var(--divider);
-      margin: 28px 0;
+      margin: 20px 0;
     }
 
-    .source-list li {
-      font-size: 15px;
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background-color: rgba(37, 99, 235, 0.06);
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .section-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
       color: var(--muted-text);
-      margin-bottom: 8px;
+      margin-bottom: 4px;
+    }
+
+    .sources-title {
+      font-weight: 600;
+      margin-top: 18px;
+      margin-bottom: 6px;
+    }
+
+    .source-list {
+      font-size: 14px;
+      color: var(--muted-text);
+      padding-left: 18px;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="page">
+    <div class="card">
 
-    <h1>Osteoporoz (Kemik Erimesi)</h1>
+      <div class="badge">PT Pro – Klinik Bilgilendirme Notu</div>
+      <h1>Osteoporoz (Kemik Erimesi)</h1>
 
-    <hr />
+      <div class="section-label">Tanım ve klinik çerçeve</div>
 
-    <h2>Nedir?</h2>
+      <p>
+        <strong>Osteoporoz</strong>, kemik mineral yoğunluğunun azalması ve mikroyapısının bozulmasıyla kemiklerin zayıf,
+        gözenekli ve kırılgan hâle geldiği <strong>metabolik bir kemik hastalığıdır</strong>.
+      </p>
 
-    <p>
-      <strong>Osteoporoz</strong>, kemik mineral yoğunluğunun azalması ve mikroyapısının bozulmasıyla kemiklerin zayıf,
-      gözenekli ve kırılgan hâle geldiği <strong>metabolik bir kemik hastalığıdır</strong>.
-    </p>
+      <p>
+        Kadınlarda özellikle <strong>menopoz sonrası östrojen azalması (Tip I)</strong> ve
+        <strong>yaşa bağlı kemik yıkımı (Tip II)</strong> önemli etkenlerdir.
+        En sık <strong>kalça</strong>, <strong>omurga</strong> ve <strong>el bileği kırıkları</strong> görülür.
+      </p>
 
-    <p>
-      Kadınlarda özellikle <strong>menopoz sonrası östrojen azalması (Tip I)</strong> ve
-      <strong>yaşa bağlı kemik yıkımı (Tip II)</strong> başlıca nedenler arasındadır.
-      En sık <strong>kalça</strong>, <strong>omurga</strong> ve <strong>el bileği kırıkları</strong> görülür.
-    </p>
+      <hr />
 
-    <hr />
+      <div class="section-label">Oluşum mekanizması</div>
 
-    <h2>Neden oluşur?</h2>
+      <ul>
+        <li>Yaşlanma ve hormonal değişiklikler (menopoz, düşük testosteron)</li>
+        <li>Fiziksel inaktivite ve uzun süreli yatak istirahati</li>
+        <li>Kalsiyum ve D vitamini yetersizliği</li>
+        <li>Sigara, alkol ve aşırı kafein tüketimi</li>
+        <li>Kortizon, antiepileptik vb. ilaçların uzun süreli kullanımı</li>
+        <li>Aile öyküsü ve ince vücut yapısı</li>
+      </ul>
 
-    <ul>
-      <li>Yaşlanma ve hormonal değişiklikler (menopoz, düşük testosteron)</li>
-      <li>Fiziksel inaktivite ve uzun süreli yatak istirahati</li>
-      <li>Kalsiyum ve D vitamini yetersizliği</li>
-      <li>Sigara, alkol ve aşırı kafein tüketimi</li>
-      <li>Kortizon, antiepileptik vb. ilaçların uzun süreli kullanımı</li>
-      <li>Aile öyküsü ve ince vücut yapısı</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="section-label">Egzersiz yaklaşımı</div>
 
-    <h2>Egzersizde nelere dikkat edilmeli?</h2>
+      <p>
+        <strong>Hedef:</strong> Kemik mineral yoğunluğunu korumak/artırmak, denge ve kas kuvvetini geliştirerek kırık
+        riskini azaltmak ve fonksiyonel kapasiteyi desteklemektir.
+      </p>
 
-    <h2>Önerilen egzersizler</h2>
+      <hr />
 
-    <ul>
-      <li><strong>Vücut ağırlığını taşıyan aerobik:</strong> Yürüyüş, merdiven çıkma, dans, hafif koşu</li>
-      <li><strong>Direnç egzersizleri:</strong> Serbest ağırlık, elastik bant veya makinelerle haftada 2–3 gün</li>
-      <li><strong>Denge ve core çalışmaları:</strong> Yoga, Tai Chi, tek ayak denge duruşları</li>
-      <li><strong>Frekans:</strong> Haftada 3–5 gün, 30–60 dakika, orta yoğunlukta</li>
-    </ul>
+      <div class="section-label">Önerilen egzersizler</div>
 
-    <hr />
+      <ul>
+        <li>
+          <strong>Vücut ağırlığını taşıyan aerobik aktiviteler:</strong>
+          Yürüyüş, merdiven çıkma, dans, hafif koşu
+        </li>
+        <li>
+          <strong>Direnç egzersizleri:</strong>
+          Serbest ağırlık, elastik bant veya makinelerle haftada 2–3 gün
+        </li>
+        <li>
+          <strong>Denge ve core çalışmaları:</strong>
+          Yoga, Tai Chi, tek ayak denge duruşları
+        </li>
+        <li>
+          <strong>Frekans ve süre:</strong>
+          Haftada 3–5 gün, 30–60 dakika, orta yoğunlukta
+        </li>
+      </ul>
 
-    <h2>Kaçınılması gerekenler</h2>
+      <hr />
 
-    <ul>
-      <li>Ani, yüksek darbeli veya patlayıcı hareketler (zıplama, sert yön değiştirme)</li>
-      <li>Omurgayı öne eğen veya döndüren egzersizler (özellikle ileri osteoporozda)</li>
-      <li>Aşırı yüklenme ve ağrılı aralıkta çalışma</li>
-      <li>Ciddi osteoporozda, koşu yerine <strong>bisiklet</strong> veya <strong>destekli yürüyüş</strong> gibi daha
-        düşük darbe içeren aktiviteler tercih edilmelidir.</li>
-    </ul>
+      <div class="section-label">Kaçınılması gerekenler</div>
 
-    <hr />
+      <ul>
+        <li>Ani, yüksek darbeli veya patlayıcı hareketler (zıplama, sert yön değiştirme)</li>
+        <li>Omurgayı öne eğen veya döndüren egzersizler (özellikle ileri osteoporozda)</li>
+        <li>Aşırı yüklenme ve ağrılı aralıkta çalışma</li>
+        <li>
+          Ciddi osteoporozda, koşu yerine <strong>bisiklet</strong> veya
+          <strong>destekli yürüyüş</strong> gibi daha düşük darbe içeren aktiviteler tercih edilmelidir.
+        </li>
+      </ul>
 
-    <h2>Kaynaklar</h2>
+      <hr />
 
-    <ul class="source-list">
-      <li>Pescatello, L. S. (2014). <em>ACSM’s Guidelines for Exercise Testing and Prescription.</em></li>
-      <li>Katch, V. L., McArdle, W. D., &amp; Katch, F. I. (2010). <em>Essentials of Exercise Physiology.</em></li>
-      <li>Nieman, D. C. (2011). <em>Exercise Testing and Prescription: A Health-Related Approach.</em></li>
-      <li>Zhang, L., et al. (2022). <em>Exercise for Osteoporosis: A Literature Review of Pathology and Mechanism.</em></li>
-    </ul>
+      <div class="sources-title">Kaynaklar</div>
 
+      <ol class="source-list">
+        <li>Pescatello, L. S. (2014). <em>ACSM’s Guidelines for Exercise Testing and Prescription.</em></li>
+        <li>Katch, V. L., McArdle, W. D., &amp; Katch, F. I. (2010). <em>Essentials of Exercise Physiology.</em></li>
+        <li>Nieman, D. C. (2011). <em>Exercise Testing and Prescription: A Health-Related Approach.</em></li>
+        <li>Zhang, L., et al. (2022). <em>Exercise for Osteoporosis: A Literature Review of Pathology and Mechanism.</em></li>
+      </ol>
+
+    </div>
   </div>
 </body>
 
