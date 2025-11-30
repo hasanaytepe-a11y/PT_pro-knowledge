@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="tr">
-
 <head>
   <meta charset="utf-8" />
   <title>X Bacak (Genu Valgum) – PT Pro Bilgilendirme</title>
@@ -23,132 +22,187 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif;
-      background: var(--bg-color);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Roboto", "Segoe UI", system-ui, sans-serif;
+      background-color: var(--bg-color);
       color: var(--text-color);
       line-height: 1.6;
     }
 
-    .container {
-      max-width: 760px;
+    .page {
+      max-width: 840px;
       margin: 0 auto;
-      padding: 24px;
-      background: var(--card-bg);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      padding: 16px;
     }
 
-    h1,
-    h2,
-    h3 {
-      color: var(--text-color);
-      font-weight: 700;
-      margin-top: 32px;
-      margin-bottom: 16px;
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 20px 18px 24px;
+      box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.04),
+        0 1px 3px rgba(0, 0, 0, 0.06);
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 26px;
+      margin: 0 0 4px;
+      letter-spacing: 0.01em;
     }
 
-    h2 {
-      font-size: 22px;
-    }
-
-    h3 {
-      font-size: 18px;
-    }
-
-    p,
-    li {
-      font-size: 16px;
-      color: var(--text-color);
-    }
-
-    ul {
-      padding-left: 20px;
+    p {
+      margin: 0 0 10px;
     }
 
     hr {
       border: none;
       border-top: 1px solid var(--divider);
-      margin: 28px 0;
+      margin: 20px 0;
+    }
+
+    ul {
+      margin: 0 0 12px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background-color: rgba(37, 99, 235, 0.06);
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .section-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted-text);
+      margin-bottom: 4px;
+    }
+
+    .sources-title {
+      font-weight: 600;
+      margin-top: 18px;
+      margin-bottom: 6px;
     }
 
     .source-list {
-      margin-top: 16px;
-      padding-left: 20px;
+      font-size: 14px;
+      color: var(--muted-text);
+      padding-left: 18px;
     }
 
-    .source-list li {
-      color: var(--muted-text);
-      font-size: 15px;
-      margin-bottom: 8px;
+    @media (min-width: 768px) {
+      .card {
+        padding: 24px 24px 28px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="page">
+    <div class="card">
 
-    <h1>X Bacak (Genu Valgum)</h1>
+      <div class="badge">PT Pro – Klinik Bilgilendirme Notu</div>
+      <h1>X Bacak (Genu Valgum)</h1>
 
-    <hr />
+      <div class="section-label">Tanım ve oluşum mekanizması</div>
 
-    <h2>Nedir? Neden oluşur?</h2>
+      <p>
+        <strong>Genu valgum</strong>, femur ve tibia arasındaki medial açının
+        <strong>195°’den büyük olması</strong> ile karakterize, dizlerin birbirine yaklaşırken
+        ayak bileklerinin ayrıldığı bir diz hizalanma bozukluğudur.
+      </p>
 
-    <p>
-      <strong>Genu valgum</strong>, femur ve tibia arasındaki medial açının
-      <strong>195°’den büyük olması</strong> ile karakterize, dizlerin birbirine yaklaşırken ayak bileklerinin ayrıldığı bir diz hizalanma bozukluğudur.
-    </p>
+      <p>
+        <strong>Femur iç rotasyonu</strong>,
+        <strong>kalça ve diz kas dengesizlikleri</strong>,
+        <strong>pes planus</strong>,
+        <strong>lateral kas kısalıkları</strong> ve
+        <strong>medial kas zayıflıkları</strong>
+        bu bozukluğa yol açabilir.
+      </p>
 
-    <p>
-      <strong>Femur iç rotasyonu</strong>,
-      <strong>kalça ve diz kas dengesizlikleri</strong>,
-      <strong>pes planus</strong>,
-      <strong>lateral kas kısalıkları</strong> ve
-      <strong>medial kas zayıflıkları</strong>
-      bu bozukluğa yol açabilir.
-    </p>
+      <p>
+        Zamanla yük aktarımı lateral kompartmana kayar, patellofemoral eklemde stres artar
+        ve osteoartrit riski yükselir.
+      </p>
 
-    <p>
-      Zamanla yük aktarımı lateral kompartmana kayar, patellofemoral eklemde stres artar ve osteoartrit riski yükselir.
-    </p>
+      <hr />
 
-    <hr />
+      <div class="section-label">Egzersiz yaklaşımı</div>
 
-    <h2>Egzersiz Önerileri</h2>
+      <ul>
+        <li>
+          <strong>Germe çalışmaları:</strong>
+          İliotibial bant (ITB) ve <em>biceps femoris</em> için nazik esnetme hareketleri
+        </li>
+        <li>
+          <strong>Adduktor güçlendirme:</strong>
+          Dizler arasında yastıkla sıkma egzersizleri
+        </li>
+        <li>
+          <strong>Kalça abdüktör ve ekstansör çalışmaları:</strong>
+          Bridge, yan yatışta bacak açma, mini squat
+        </li>
+        <li>
+          <strong>Elastik bant egzersizleri:</strong>
+          <em>Gluteus medius</em>, <em>vastus lateralis</em>,
+          <em>tibialis anterior</em> ve <em>semitendinosus</em> aktivasyonu
+          (haftada 3 gün, 14 hafta)
+        </li>
+        <li>
+          <strong>Postür farkındalığı:</strong>
+          Dizlerin nötr pozisyonda tutulması, uygun ortotik destek kullanımı
+        </li>
+      </ul>
 
-    <ul>
-      <li><strong>Germe çalışmaları:</strong> İliotibial bant (ITB) ve <em>biceps femoris</em> için nazik esnetme hareketleri</li>
-      <li><strong>Adduktor güçlendirme:</strong> Dizler arasında yastıkla sıkma egzersizleri</li>
-      <li><strong>Kalça abdüktör ve ekstansör çalışmaları:</strong> Bridge, yan yatışta bacak açma, mini squat</li>
-      <li><strong>Elastik bant egzersizleri:</strong> <em>Gluteus medius</em>, <em>vastus lateralis</em>, <em>tibialis anterior</em> ve <em>semitendinosus</em> aktivasyonu (haftada 3 gün, 14 hafta)</li>
-      <li><strong>Postür farkındalığı:</strong> Dizlerin nötr pozisyonda tutulması, uygun ortotik destek kullanımı</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="section-label">Dikkat edilmesi gerekenler</div>
 
-    <h2>Kaçınılması Gerekenler</h2>
+      <ul>
+        <li>Uzun süre tek bacak üzerine yüklenmek veya dizleri birbirine bastırarak oturmak</li>
+        <li>Aşırı iç rotasyon veya yüksek darbeli aktiviteler (zıplama, sert zeminde koşu)</li>
+        <li>Köpük rulo ile diz eklemi üzerine doğrudan baskı uygulamak</li>
+        <li>Yalnız egzersizle kemiksel deformiteyi düzeltmeye çalışmak</li>
+        <li>Taping veya dizlikleri kalıcı çözüm olarak görmek</li>
+      </ul>
 
-    <ul>
-      <li>Uzun süre tek bacak üzerine yüklenmek veya dizleri birbirine bastırarak oturmak</li>
-      <li>Aşırı iç rotasyon veya yüksek darbeli aktiviteler (zıplama, sert zeminde koşu)</li>
-      <li>Köpük rulo ile diz eklemi üzerine doğrudan baskı uygulamak</li>
-      <li>Yalnız egzersizle kemiksel deformiteyi düzeltmeye çalışmak</li>
-      <li>Taping veya dizlikleri kalıcı çözüm olarak görmek</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="sources-title">Kaynaklar</div>
 
-    <h2>Kaynaklar</h2>
+      <ol class="source-list">
+        <li>Johnson, J. (2011). <em>Postural Assessment.</em> Human Kinetics.</li>
+        <li>Johnson, J. (2015). <em>Postural Correction.</em> Human Kinetics.</li>
+        <li>Namavarian, N. et al. (2014). <em>Knee muscle function in genu varum/valgum.</em> Modern Rehabilitation.</li>
+        <li>Jafarnezhadgero, A. et al. (2021). <em>Elastic band exercise effects in genu valgus.</em> Clinical Biomechanics, 81, 105215.</li>
+      </ol>
 
-    <ul class="source-list">
-      <li>Johnson, J. (2011). <em>Postural Assessment.</em> Human Kinetics.</li>
-      <li>Johnson, J. (2015). <em>Postural Correction.</em> Human Kinetics.</li>
-      <li>Namavarian, N. et al. (2014). <em>Knee muscle function in genu varum/valgum.</em> Modern Rehabilitation.</li>
-      <li>Jafarnezhadgero, A. et al. (2021). <em>Elastic band exercise effects in genu valgus.</em> Clinical Biomechanics, 81, 105215.</li>
-    </ul>
-
+    </div>
   </div>
 </body>
 
