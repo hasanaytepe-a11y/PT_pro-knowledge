@@ -12,122 +12,181 @@
       --card-bg: #ffffff;
       --text-color: #111111;
       --muted-text: #555555;
+      --accent: #2563eb;
       --divider: #e0e0e5;
+    }
+
+    * {
+      box-sizing: border-box;
     }
 
     body {
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif;
-      background: var(--bg-color);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Roboto", system-ui, sans-serif;
+      background-color: var(--bg-color);
       color: var(--text-color);
       line-height: 1.6;
     }
 
-    .container {
-      max-width: 760px;
+    .page {
+      max-width: 840px;
       margin: 0 auto;
-      padding: 24px;
-      background: var(--card-bg);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      padding: 16px;
     }
 
-    h1,
-    h2 {
-      color: var(--text-color);
-      font-weight: 700;
-      margin-top: 32px;
-      margin-bottom: 16px;
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 22px 20px 26px;
+      box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.04),
+        0 1px 3px rgba(0, 0, 0, 0.06);
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 26px;
+      margin: 0 0 6px;
+      letter-spacing: 0.01em;
+      font-weight: 700;
     }
 
-    h2 {
-      font-size: 22px;
-    }
-
-    p,
-    li {
-      font-size: 16px;
-      color: var(--text-color);
+    p {
+      margin: 0 0 10px;
     }
 
     ul {
-      padding-left: 20px;
+      margin: 0 0 12px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    em {
+      font-style: italic;
     }
 
     hr {
       border: none;
       border-top: 1px solid var(--divider);
-      margin: 28px 0;
+      margin: 20px 0;
     }
 
-    .source-list li {
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background-color: rgba(37, 99, 235, 0.06);
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .section-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
       color: var(--muted-text);
-      font-size: 15px;
-      margin-bottom: 8px;
+      margin-bottom: 4px;
+    }
+
+    .sources-title {
+      font-weight: 600;
+      margin-top: 18px;
+      margin-bottom: 6px;
+    }
+
+    .source-list {
+      font-size: 14px;
+      color: var(--muted-text);
+      padding-left: 18px;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="page">
+    <div class="card">
 
-    <h1>Patellofemoral Ağrı Sendromu</h1>
+      <div class="badge">PT Pro – Klinik Bilgilendirme Notu</div>
+      <h1>Patellofemoral Ağrı Sendromu</h1>
 
-    <hr />
+      <div class="section-label">Tanım ve oluşum mekanizması</div>
 
-    <h2>Nedir? Neden oluşur?</h2>
+      <p>
+        <strong>Patellofemoral ağrı sendromu</strong>, patella çevresinde veya arkasında hissedilen,
+        özellikle ön diz ağrısı ile karakterize bir durumdur.
+      </p>
 
-    <p>
-      <strong>Patellofemoral ağrı sendromu</strong>, patella çevresinde veya arkasında hissedilen, özellikle ön diz ağrısı ile
-      karakterize bir durumdur.
-    </p>
+      <p>
+        En sık <strong>koşucular</strong>, <strong>genç yetişkinler</strong> ve
+        <strong>aktif bireylerde</strong> görülür. Patellofemoral ekleme tekrarlayıcı yük binmesi;
+        <strong>kuadriseps ve kalça kas zayıflıkları</strong>,
+        <strong>iliotibial bant (ITB) sertliği</strong>
+        ve <strong>biyomekanik hizalanma bozuklukları</strong>
+        (ör. diz valgusu, pes planus) ile ilişkilidir.
+      </p>
 
-    <p>
-      En sık <strong>koşucular</strong>, <strong>genç yetişkinler</strong> ve <strong>aktif bireylerde</strong> görülür.
-      Patellofemoral ekleme tekrarlayıcı yük binmesi;
-      <strong>kuadriseps ve kalça kas zayıflıkları</strong>,
-      <strong>iliotibial bant (ITB) sertliği</strong>
-      ve <strong>biyomekanik hizalanma bozuklukları</strong> (ör. diz valgusu, pes planus) ile ilişkilidir.
-    </p>
+      <hr />
 
-    <hr />
+      <div class="section-label">Egzersiz yaklaşımı</div>
 
-    <h2>Egzersiz Önerileri</h2>
+      <ul>
+        <li>
+          <strong>Kuadriseps güçlendirme:</strong>
+          Lunge, duvar squat, leg press gibi kapalı zincir egzersizler
+          (düşük fleksiyon açılarında)
+        </li>
+        <li>
+          <strong>Kalça abdüktör ve dış rotatör güçlendirme:</strong>
+          Step-up, yanda yürüyüş (direnç bandı ile)
+        </li>
+        <li>
+          <strong>ITB, hamstring ve gastro-soleus germe:</strong>
+          Foam roller veya dinamik esnetme
+        </li>
+        <li>
+          <strong>Patellar taping veya tabanlık kullanımı:</strong>
+          Yük toleransını artırmak ve ağrıyı azaltmak
+        </li>
+        <li>
+          <strong>Yürüyüş ve koşu mekaniği eğitimi:</strong>
+          Diz hizalaması ve femoral rotasyon kontrolü
+        </li>
+      </ul>
 
-    <ul>
-      <li><strong>Kuadriseps güçlendirme:</strong> Lunge, duvar squat, leg press gibi kapalı zincir egzersizler (düşük fleksiyon açılarında)</li>
-      <li><strong>Kalça abdüktör ve dış rotatör güçlendirme:</strong> Step-up, yanda yürüyüş (direnç bandı ile)</li>
-      <li><strong>ITB, hamstring ve gastro-soleus germe:</strong> Foam roller veya dinamik esnetme</li>
-      <li><strong>Patellar taping veya tabanlık kullanımı:</strong> Yük toleransını artırmak ve ağrıyı azaltmak</li>
-      <li><strong>Yürüyüş ve koşu mekaniği eğitimi:</strong> Diz hizalaması ve femoral rotasyon kontrolü</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="section-label">Dikkat edilmesi gerekenler</div>
 
-    <h2>Kaçınılması Gerekenler</h2>
+      <ul>
+        <li>Derin çömelme, merdiven koşusu veya yüksek diz fleksiyonu içeren aktiviteler</li>
+        <li>Ağrılı egzersiz zorlamaları veya hızlı antrenman yüklenmesi</li>
+        <li>Sadece pasif tedavilere (masaj, sıcak uygulama) güvenmek</li>
+      </ul>
 
-    <ul>
-      <li>Derin çömelme, merdiven koşusu veya yüksek diz fleksiyonu içeren aktiviteler</li>
-      <li>Ağrılı egzersiz zorlamaları veya hızlı antrenman yüklenmesi</li>
-      <li>Sadece pasif tedavilere (masaj, sıcak uygulama) güvenmek</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="sources-title">Kaynaklar</div>
 
-    <h2>Kaynaklar</h2>
+      <ol class="source-list">
+        <li>van der Heijden, R. A., et al. (2015). <em>Exercise for treating patellofemoral pain syndrome.</em> Cochrane Reviews.</li>
+        <li>Khan, K., &amp; Brukner, P. (2011). <em>Clinical Sports Medicine.</em> McGraw-Hill Medical.</li>
+        <li>Porcari, J., Bryant, C., &amp; Comana, F. (2015). <em>Exercise Physiology.</em> FA Davis.</li>
+        <li>Fredericson, M., &amp; Powers, C. M. (2002). <em>Practical management of patellofemoral pain.</em> Clin J Sport Med.</li>
+      </ol>
 
-    <ul class="source-list">
-      <li>van der Heijden, R. A., et al. (2015). <em>Exercise for treating patellofemoral pain syndrome.</em> Cochrane Reviews.</li>
-      <li>Khan, K., & Brukner, P. (2011). <em>Clinical Sports Medicine.</em> McGraw-Hill Medical.</li>
-      <li>Porcari, J., Bryant, C., & Comana, F. (2015). <em>Exercise Physiology.</em> FA Davis.</li>
-      <li>Fredericson, M., & Powers, C. M. (2002). <em>Practical management of patellofemoral pain.</em> Clin J Sport Med.</li>
-    </ul>
-
+    </div>
   </div>
 </body>
 
-</html> 
+</html>
