@@ -12,6 +12,7 @@
       --card-bg: #ffffff;
       --text-color: #111111;
       --muted-text: #555555;
+      --accent: #2563eb;
       --divider: #e0e0e5;
     }
 
@@ -22,120 +23,152 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Roboto", system-ui, sans-serif;
       background: var(--bg-color);
       color: var(--text-color);
       line-height: 1.6;
     }
 
-    .container {
-      max-width: 760px;
+    .page {
+      max-width: 840px;
       margin: 0 auto;
-      padding: 24px;
-      background: var(--card-bg);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      padding: 16px;
     }
 
-    h1,
-    h2 {
-      color: var(--text-color);
-      font-weight: 700;
-      margin-top: 32px;
-      margin-bottom: 16px;
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 22px 20px 26px;
+      box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.04),
+        0 1px 3px rgba(0, 0, 0, 0.06);
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 26px;
+      margin: 0 0 6px;
+      letter-spacing: 0.01em;
+      font-weight: 700;
     }
 
-    h2 {
-      font-size: 22px;
-    }
-
-    p,
-    li {
-      font-size: 16px;
-      color: var(--text-color);
+    p {
+      margin: 0 0 10px;
     }
 
     ul {
-      padding-left: 20px;
+      margin: 0 0 12px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    em {
+      font-style: italic;
     }
 
     hr {
       border: none;
       border-top: 1px solid var(--divider);
-      margin: 28px 0;
+      margin: 20px 0;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background-color: rgba(37, 99, 235, 0.06);
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .section-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted-text);
+      margin-bottom: 4px;
+    }
+
+    .sources-title {
+      font-weight: 600;
+      margin-top: 18px;
+      margin-bottom: 6px;
     }
 
     .source-list {
-      margin-top: 16px;
-      padding-left: 20px;
-    }
-
-    .source-list li {
+      font-size: 14px;
       color: var(--muted-text);
-      font-size: 15px;
-      margin-bottom: 8px;
+      padding-left: 18px;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="page">
+    <div class="card">
 
-    <h1>Menisküs Yırtığı</h1>
+      <div class="badge">PT Pro – Klinik Bilgilendirme Notu</div>
+      <h1>Menisküs Yırtığı</h1>
 
-    <hr />
+      <div class="section-label">Tanım ve oluşum mekanizması</div>
 
-    <h2>Nedir? Neden oluşur?</h2>
+      <p>
+        <strong>Menisküs</strong>, femur ile tibia arasındaki yük dağılımını sağlayan ve eklem stabilitesine
+        katkıda bulunan fibro-kıkırdak yapıdır.
+      </p>
 
-    <p>
-      <strong>Menisküs</strong>, dizde femur ile tibia arasındaki yük dağılımını sağlayan ve eklem stabilitesine
-      katkıda bulunan fibro-kıkırdak yapıdır.
-    </p>
+      <p>
+        Yırtıklar genellikle dizin bükülmesi sırasında dönme + yüklenmenin bir arada olduğu ani hareketler sonucu
+        ortaya çıkar. <strong>Medial menisküs</strong> daha az hareketli olduğu için daha sık yırtılır. Yaşla birlikte
+        görülen <strong>dejeneratif yırtıklar</strong> ise tekrarlayan mikrotravmalarla gelişir.
+      </p>
 
-    <p>
-      Yırtıklar genellikle dizin bükülmesi sırasında dönme ve yüklenmenin bir arada olduğu ani hareketler sonucu
-      gelişir. <strong>Medial menisküs</strong> daha az hareketli olduğundan daha sık yırtılır; yaşla birlikte görülen
-      <strong>dejeneratif yırtıklar</strong> ise tekrarlayan mikrotravmalarla ortaya çıkar.
-    </p>
+      <hr />
 
-    <hr />
+      <div class="section-label">Egzersiz yaklaşımı</div>
 
-    <h2>Egzersiz Önerileri</h2>
+      <ul>
+        <li><strong>Kuadriseps</strong> (özellikle <em>vastus medialis oblique</em>) ve <strong>hamstring</strong> güçlendirme</li>
+        <li><strong>Kalça abdüktör</strong> ve <strong>ekstansör</strong> kaslarının aktivasyonu</li>
+        <li><strong>Kapalı zincir egzersizleri:</strong> Mini squat, step-up, köprü, tek ayak denge</li>
+        <li><strong>Denge ve propriosepsiyon</strong> çalışmaları</li>
+        <li><strong>Düşük etkili kardiyo:</strong> Hafif bisiklet, yürüyüş, yüzme</li>
+      </ul>
 
-    <ul>
-      <li><strong>Kuadriseps</strong> (özellikle <em>vastus medialis oblique</em>) ve <strong>hamstring güçlendirme</strong></li>
-      <li><strong>Kalça abdüktör</strong> ve <strong>ekstansör</strong> kaslarını çalıştırma</li>
-      <li><strong>Kapalı zincir egzersizleri:</strong> Mini squat, step-up, köprü, tek ayak denge</li>
-      <li><strong>Denge ve propriosepsiyon</strong> çalışmaları</li>
-      <li><strong>Hafif bisiklet</strong>, yürüyüş ve yüzme gibi düşük etkili kardiyo egzersizleri</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="section-label">Dikkat edilmesi gerekenler</div>
 
-    <h2>Kaçınılması Gerekenler</h2>
+      <ul>
+        <li>Derin çömelme, ani pivot ve dönme hareketleri</li>
+        <li>Kilitlenme yapan <em>“bucket handle”</em> tipi yırtıklarda egzersize devam etmek</li>
+        <li>Erken dönemde spora hızlı dönüş veya agresif yüklenme</li>
+        <li>Ağrılı aralıkta egzersiz yapmak veya şişlik artarken yüklenmeye devam etmek</li>
+        <li>Uzun süreli immobilizasyon ve hareketsizlik</li>
+      </ul>
 
-    <ul>
-      <li>Derin çömelme, ani pivot ve dönme hareketleri</li>
-      <li>Kilitlenme yapan <em>“bucket handle”</em> tipi yırtıklarda egzersize devam etmek</li>
-      <li>Erken dönemde spora hızlı dönüş veya agresif yüklenme</li>
-      <li>Ağrılı aralıkta egzersiz yapmak veya şişlik artarken yüklenmeye devam etmek</li>
-      <li>Uzun süreli immobilizasyon ve hareketsizlik</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="sources-title">Kaynaklar</div>
 
-    <h2>Kaynaklar</h2>
+      <ol class="source-list">
+        <li>O’Connor, F. G. (2005). <em>Sport Medicine: Just the Facts.</em> McGraw-Hill.</li>
+        <li>Clark, M., & Lucett, S. (2010). <em>NASM Essentials of Corrective Exercise Training.</em></li>
+        <li>Nakayama, H., et al. (2017). <em>Clinical outcome of meniscus repair for isolated tears in athletes.</em> AP-SMART, 10, 4–7.</li>
+        <li>Spang, R. C., et al. (2018). <em>Rehabilitation following meniscal repair: a systematic review.</em> BMJ Open Sport & Exerc Med, 4(1).</li>
+      </ol>
 
-    <ul class="source-list">
-      <li>O’Connor, F. G. (2005). <em>Sport Medicine: Just the Facts.</em> McGraw-Hill.</li>
-      <li>Clark, M., & Lucett, S. (2010). <em>NASM Essentials of Corrective Exercise Training.</em></li>
-      <li>Nakayama, H., et al. (2017). <em>Clinical outcome of meniscus repair for isolated tears in athletes.</em> AP-SMART, 10, 4–7.</li>
-      <li>Spang, R. C., et al. (2018). <em>Rehabilitation following meniscal repair: a systematic review.</em> BMJ Open Sport &amp; Exerc Med, 4(1).</li>
-    </ul>
-
+    </div>
   </div>
 </body>
 
