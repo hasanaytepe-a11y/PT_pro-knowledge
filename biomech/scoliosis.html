@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="tr">
-
 <head>
   <meta charset="utf-8" />
   <title>Skolyoz – PT Pro Bilgilendirme</title>
@@ -12,131 +11,159 @@
       --card-bg: #ffffff;
       --text-color: #111111;
       --muted-text: #555555;
+      --accent: #2563eb;
       --divider: #e0e0e5;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", Arial, sans-serif;
-      background: var(--bg-color);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Roboto", system-ui, sans-serif;
+      background-color: var(--bg-color);
       color: var(--text-color);
       line-height: 1.6;
     }
 
-    .container {
-      max-width: 760px;
+    .page {
+      max-width: 840px;
       margin: 0 auto;
-      padding: 24px;
-      background: var(--card-bg);
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      padding: 16px;
     }
 
-    h1,
-    h2 {
-      color: var(--text-color);
-      font-weight: 700;
-      margin-top: 32px;
-      margin-bottom: 16px;
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      padding: 22px 20px 26px;
+      box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.04),
+        0 1px 3px rgba(0, 0, 0, 0.06);
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 26px;
+      margin: 0 0 6px;
+      letter-spacing: 0.01em;
+      font-weight: 700;
     }
 
-    h2 {
-      font-size: 22px;
-    }
-
-    p,
-    li {
-      font-size: 16px;
-      color: var(--text-color);
-    }
-
-    ul {
-      padding-left: 20px;
-    }
+    p { margin: 0 0 10px; }
+    ul { margin: 0 0 12px 20px; padding: 0; }
+    li { margin-bottom: 6px; }
 
     hr {
       border: none;
       border-top: 1px solid var(--divider);
-      margin: 28px 0;
+      margin: 20px 0;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      background-color: rgba(37, 99, 235, 0.06);
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .section-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted-text);
+      margin-bottom: 4px;
+    }
+
+    .sources-title {
+      font-weight: 600;
+      margin-top: 18px;
+      margin-bottom: 6px;
     }
 
     .source-list {
-      margin-top: 16px;
-      padding-left: 20px;
-    }
-
-    .source-list li {
+      font-size: 14px;
       color: var(--muted-text);
-      font-size: 15px;
-      margin-bottom: 8px;
+      padding-left: 18px;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <div class="page">
+    <div class="card">
 
-    <h1>Skolyoz</h1>
+      <div class="badge">PT Pro – Klinik Bilgilendirme Notu</div>
+      <h1>Skolyoz</h1>
 
-    <hr />
+      <div class="section-label">Tanım ve oluşum mekanizması</div>
 
-    <h2>Nedir? Neden oluşur?</h2>
+      <p>
+        <strong>Skolyoz</strong>, omurganın yan tarafa eğilmesiyle birlikte kendi ekseni etrafında dönmesi sonucu oluşan
+        üç boyutlu bir gövde deformitesidir.
+      </p>
 
-    <p>
-      <strong>Skolyoz</strong>, omurganın yan tarafa eğilmesiyle birlikte kendi ekseni etrafında dönmesi sonucu ortaya çıkan
-      üç boyutlu bir gövde deformitesidir.
-    </p>
+      <p>
+        Çoğu idiopatik kökenlidir ve özellikle büyüme çağında yaş, cinsiyet ve eğrilik açısına bağlı olarak ilerleme görülebilir.
+        <strong>Torakal</strong> veya <strong>torakolomber</strong> eğriliklerde akciğer fonksiyonları azalabilir;
+        ileri olgularda <strong>kardiyorespiratuvar kapasite</strong> de etkilenir.
+      </p>
 
-    <p>
-      Çoğu idiopatik kökenlidir ve özellikle büyüme çağında yaş, cinsiyet ve eğrilik açısına göre ilerleme gösterebilir.
-      <strong>Torakal</strong> veya <strong>torakolomber</strong> eğriliklerde akciğer fonksiyonları azalabilir;
-      ileri olgularda <strong>kardiyorespiratuvar kapasite</strong> de etkilenir.
-    </p>
+      <hr />
 
-    <hr />
+      <div class="section-label">Egzersiz yaklaşımı</div>
 
-    <h2>Egzersiz Önerileri</h2>
+      <ul>
+        <li>
+          <strong>Nefes kontrolü ve gövde farkındalığı:</strong>
+          Aktif Schroth egzersizleri ve eğrilik yönüne yönelik rotasyonel solunum
+        </li>
+        <li>
+          <strong>Pelvis ve skapula hizalama:</strong>
+          Ayna veya elastik bant geri bildirimiyle postür düzeltme
+        </li>
+        <li>
+          <strong>Simetrik core aktivasyonu:</strong>
+          Plank varyasyonları, nötral omurga odaklı çalışmalar
+        </li>
+        <li>
+          <strong>Denge ve propriosepsiyon:</strong>
+          Tek ayak denge, denge tahtası uygulamaları
+        </li>
+        <li>
+          <strong>Mobilizasyon ve elongasyon:</strong>
+          Kontrollü, ağrısız ve mümkün olduğunca simetrik hareketler
+        </li>
+      </ul>
 
-    <ul>
-      <li><strong>Nefes kontrolü ve gövde farkındalığı:</strong> Aktif Schroth egzersizleri, eğrilik yönüne göre rotasyonel solunum</li>
-      <li><strong>Pelvis ve skapula hizalama:</strong> Ayna veya elastik bant geri bildirimiyle postür düzeltme</li>
-      <li><strong>Postür düzeltici ve simetrik core aktivasyonları:</strong> Plank varyasyonları, nötral omurga odaklı çalışmalar</li>
-      <li><strong>Denge ve propriyosepsiyon:</strong> Tek ayak denge, denge tahtası vb.</li>
-      <li><strong>Hafif mobilizasyon ve elongasyon egzersizleri:</strong> Kontrollü, ağrısız, mümkün olduğunca simetrik hareketler</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="section-label">Dikkat edilmesi gerekenler</div>
 
-    <h2>Kaçınılması Gerekenler</h2>
+      <ul>
+        <li>Hızlı ve kontrolsüz gövde rotasyonları veya momentumlu dönüşler</li>
+        <li>Aşırı ekstansiyon (geriye eğilme) içeren egzersizler</li>
+        <li>Omurgaya yüksek aksiyel yük bindiren ağır squat veya baş üstü press hareketleri</li>
+        <li>Statik ve yoğun sinir hattı gerilimi oluşturan pozisyonlar</li>
+        <li>Aşırı tek taraflı veya kontrolsüz “auto-elongation” denemeleri</li>
+      </ul>
 
-    <ul>
-      <li>Hızlı ve kontrolsüz gövde rotasyonları veya momentumlu dönüş hareketleri</li>
-      <li>Aşırı ekstansiyon (geriye eğilme) içeren egzersizler</li>
-      <li>Omurgaya yüksek aksiyel yük bindiren ağır squat veya baş üstü press egzersizleri</li>
-      <li>Uzun süreli statik esnetme ve sinir hattı gerilimi oluşturan pozisyonlar</li>
-      <li>Aşırı tek taraflı, lateral odaklı ve kontrolsüz “auto-elongation” denemeleri</li>
-    </ul>
+      <hr />
 
-    <hr />
+      <div class="sources-title">Kaynaklar</div>
 
-    <h2>Kaynaklar</h2>
+      <ol class="source-list">
+        <li>Weiss, H. R., Lehnert-Schroth, C., Moramarco, M., &amp; Moramarco, K. (2022). <em>Schroth Therapy.</em></li>
+        <li>Romano, M., Negrini, A., Parzini, S., &amp; Negrini, S. (2008). SEAS yaklaşımı. In <em>The Conservative Scoliosis Treatment</em>.</li>
+        <li>Weiss, H., &amp; Maier-Hennes, A. (2008). <em>Specific Exercises in the Treatment of Scoliosis.</em></li>
+        <li>O’Connor, F. G. (2005). <em>Sport Medicine: Just the Facts.</em></li>
+      </ol>
 
-    <ul class="source-list">
-      <li>Weiss, H. R., Lehnert-Schroth, C., Moramarco, M., &amp; Moramarco, K. (2022). <em>Schroth Therapy: Advancements in Conservative Scoliosis Treatment (3rd ed.).</em></li>
-      <li>Romano, M., Negrini, A., Parzini, S., &amp; Negrini, S. (2008). SEAS yaklaşımı. In <em>The Conservative Scoliosis Treatment</em>. IOS Press.</li>
-      <li>Weiss, H., &amp; Maier-Hennes, A. (2008). <em>Specific Exercises in the Treatment of Scoliosis – Differential Indication.</em> Stud Health Technol Inform, 135, 173.</li>
-      <li>O’Connor, F. G. (2005). <em>Sport Medicine: Just the Facts.</em> McGraw-Hill.</li>
-    </ul>
-
+    </div>
   </div>
 </body>
-
 </html>
